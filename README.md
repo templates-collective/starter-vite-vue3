@@ -1,3 +1,2 @@
+<p align="center">🌵 Stabilized Vue + Vite Starter Template.</p>
 
-
-🌵 Vue + Vite Starter Template
