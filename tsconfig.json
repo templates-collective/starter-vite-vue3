@@ -1,12 +1,10 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.json",
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
   "compilerOptions": {
-    "composite": true,
-    "lib": ["DOM", "ESNext"],
     "baseUrl": ".",
     "paths": {
       "@/*": [
-        "./src/*"
+        "src/*"
       ]
     },
     "types": [
@@ -18,14 +16,11 @@
     "noUnusedLocals": true
   },
   "include": [
-    "env.d.ts",
+    "mock/**/*",
     "src/**/*",
-    "src/**/*.vue",
+    "types/**/*",
     "vite.config.*",
-    "vitest.config.*",
-    "cypress.config.*",
-    "nightwatch.conf.*",
-    "playwright.config.*"
+    "cypress.config.*"
   ],
   "exclude": [
     "node_modules",

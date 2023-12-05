@@ -6,7 +6,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 export default (options: ConfigEnv) => {
   const { mode } = options
 
-  const envDir = '.vite/env/'
+  const envDir = 'env/'
 
   const env = loadEnv(mode, envDir, ['VITE_', 'APP_', 'AXIOS_'])
 
