@@ -2,13 +2,20 @@
   "extends": "@vue/tsconfig/tsconfig.json",
   "compilerOptions": {
     "composite": true,
+    "lib": ["DOM", "ESNext"],
     "baseUrl": ".",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     },
-    "types": ["node", "jsdom"]
+    "types": [
+      "vitest",
+      "vite/client"
+    ],
+    "allowJs": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true
   },
   "include": [
     "env.d.ts",
@@ -20,5 +27,8 @@
     "nightwatch.conf.*",
     "playwright.config.*"
   ],
-  "exclude": ["src/**/__tests__/*"]
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
