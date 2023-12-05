@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="60px" src="./public/logo.svg" />
+  <img width="60px" src="./src/assets/logo.svg" />
 </p>
 
 <p align="center">Stabilized Vue + Vite Starter Template.</p>
