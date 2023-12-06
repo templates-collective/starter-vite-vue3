@@ -2,6 +2,7 @@ import { URL, fileURLToPath } from 'node:url'
 import { type ConfigEnv, defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
+import UnoCSS from 'unocss/vite'
 
 export default (options: ConfigEnv) => {
   const { mode } = options
@@ -16,6 +17,7 @@ export default (options: ConfigEnv) => {
     plugins: [
       vue(),
       vueJsx(),
+      UnoCSS(),
     ],
     resolve: {
       alias: {

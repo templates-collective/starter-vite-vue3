@@ -1,0 +1,18 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background: theme('colors.white');
+  color: theme('colors.black');
+}
+
+html.dark {
+  background: theme('colors.dark.800');
+  color-scheme: dark;
+  color: theme('colors.white');
+}

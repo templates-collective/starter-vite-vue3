@@ -2,7 +2,7 @@
   <img width="60px" src="./src/assets/logo.svg" />
 </p>
 
-<p align="center">Stabilized Vue + Vite Starter Template.</p>
+<p align="center">Stabilized Vite + Vue Starter Template.</p>
 
 
 ## License
