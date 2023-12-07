@@ -8,7 +8,7 @@
       <h1 text-6>
         Opuntia
       </h1>
-      <p>Stabilized Vite + Vue Starter Template</p>
+      <p>Stabilized Vite + Vue Starter Template.</p>
     </header>
   </main>
 </template>
