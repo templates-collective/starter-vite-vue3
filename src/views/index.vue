@@ -10,5 +10,12 @@
       </h1>
       <p>Stabilized Vite + Vue Starter Template.</p>
     </header>
+    <main>
+      <p text-center>
+        <TodoButton>
+          <span>Get Started</span>
+        </TodoButton>
+      </p>
+    </main>
   </main>
 </template>
