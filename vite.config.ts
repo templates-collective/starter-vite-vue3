@@ -20,7 +20,7 @@ export default (options: ConfigEnv) => {
       vueJsx(),
       UnoCSS(),
 
-      // Vue developer tools.
+      // Vue Develop Tools.
       // FIXME: Wait for the latest release.
       // https://github.com/webfansplz/vite-plugin-vue-devtools
       VueDevTools(),
@@ -29,6 +29,13 @@ export default (options: ConfigEnv) => {
       alias: {
         '@': fileURLToPath(new URL('./src', import.meta.url)),
       },
+    },
+
+    // Vitest Configuration.
+    // https://github.com/vitest-dev/vitest
+    test: {
+      include: ['test/**/*.test.ts'],
+      environment: 'jsdom',
     },
   })
 }
