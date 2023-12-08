@@ -22,19 +22,19 @@
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite) - the latest web develop stack
+- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite) - the latest web develop stack.
 
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
+- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine.
 
-- 📦 [Components auto importing](https://github.com/antfu/unplugin-vue-components)
+- 📦 [Components auto importing](https://github.com/antfu/unplugin-vue-components).
 
-- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly.
 
-- 🦾 TypeScript, of course
+- 🦾 TypeScript, of course.
 
-- ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions)
+- ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions).
 
-- ☁️ Deploy on Netlify, zero-config
+- ☁️ Deploy on Netlify, zero-config.
 
 ## IDE
 
@@ -52,7 +52,7 @@ We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https:
 
 ### Clone to local
 
-If you prefer to do it manually with the cleaner git history
+If you prefer to do it manually with the cleaner git history.
 
 ```bash
 npx degit kaivanwong/opuntia opuntia-app
@@ -64,13 +64,13 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 
 ## Checklist
 
-When you use this template, try follow the checklist to update your info properly
+When you use this template, try follow the checklist to update your info properly:
 
-- [ ] Change the author name in `LICENSE`
-- [ ] Change the title in `app.vue`
-- [ ] Change the hostname in `vite.config.ts`
-- [ ] Change the favicon in `public`
-- [ ] Remove the `.github` folder which contains the funding info
+- [ ] Change the author name in `LICENSE`.
+- [ ] Change the title in `app.vue`.
+- [ ] Change the hostname in `vite.config.ts`.
+- [ ] Change the favicon in `public`.
+- [ ] Remove the `.github` folder which contains the funding info.
 
 And, enjoy :)
 
@@ -78,7 +78,7 @@ And, enjoy :)
 
 ### Development
 
-Just run and visit http://localhost:5173
+Just run and visit http://localhost:5173.
 
 ```bash
 pnpm dev
@@ -86,7 +86,7 @@ pnpm dev
 
 ### Build
 
-To build the App, run
+To build the App, run:
 
 ```bash
 pnpm build
