@@ -16,7 +16,7 @@
 
 <br>
 
-> **Note**: This template can't be applied to all scenes, currently only for single-page rendering (SPA). If you need server-side rendering (SSR) please use [Nuxt 3](https://nuxt.com), which also supports SSG.
+> **Note**: This template can't be applied to all scenes, currently only for single-page rendering (SPA). If you need server-side rendering (SSR) please use [Nuxt 3](https://nuxt.com), which also supports static-site generation (SSG).
 
 <br>
 
