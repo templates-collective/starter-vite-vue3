@@ -13,8 +13,6 @@
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "test": "vitest",
-    "test:unit": "vitest",
-    "test:e2e": "cypress open",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
     "release": "bumpp && pnpm publish"
@@ -34,7 +32,6 @@
     "@vue/test-utils": "^2.4.3",
     "@vue/tsconfig": "^0.4.0",
     "bumpp": "^9.2.0",
-    "cypress": "^13.6.1",
     "eslint": "^8.55.0",
     "jsdom": "^22.1.0",
     "lint-staged": "^15.2.0",
