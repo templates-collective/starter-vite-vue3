@@ -1,7 +1,7 @@
 {
   "name": "@kaivanwong/opuntia",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@8.11.0",
   "license": "MIT",
