@@ -15,7 +15,7 @@
     "test": "vitest",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
-    "release": "bumpp && pnpm publish"
+    "release": "bumpp"
   },
   "dependencies": {
     "pinia": "^2.1.7",
