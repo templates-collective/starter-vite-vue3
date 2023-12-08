@@ -4,7 +4,7 @@
 
 <br/>
 
-<p align="center"><b style="font-size:18px">Opuntia</b> <sup><em>(Preview)</em></sup></h1>
+<p align="center"><b>Opuntia</b> <sup><em>(Preview)</em></sup></h1>
 
 <p align="center">Stabilized Vite + Vue Starter Template.</p>
 
