@@ -16,8 +16,8 @@
     "noUnusedLocals": true
   },
   "include": [
-    "mock/**/*",
     "src/**/*",
+    "src/**/*.vue",
     "types/**/*",
     "vite.config.*",
     "cypress.config.*"
