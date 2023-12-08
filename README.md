@@ -2,7 +2,9 @@
   <img width="88px" src="./src/assets/logo.svg" />
 </p>
 
-<h1 align="center">Opuntia <sup><em>(Preview)</em></sup></h1>
+<br/>
+
+<p align="center"><b style="font-size:18px">Opuntia</b> <sup><em>(Preview)</em></sup></h1>
 
 <p align="center">Stabilized Vite + Vue Starter Template.</p>
 
@@ -14,7 +16,7 @@
 
 <br>
 
-> **Note**: This template can not be applied to all scenes, currently only for single page rendering (SPA), if you need server-side rendering (SSR) please use [Nuxt 3](https://nuxt.com).
+> **Note**: This template can't be applied to all scenes, currently only for single-page rendering (SPA). If you need server-side rendering (SSR) please use [Nuxt 3](https://nuxt.com), which also supports SSG.
 
 <br>
 
@@ -50,7 +52,9 @@ If you prefer to do it manually with the cleaner git history
 
 ```bash
 npx degit kaivanwong/opuntia opuntia-app
+
 cd opuntia-app
+
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
