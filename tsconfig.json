@@ -30,7 +30,7 @@
     "src/**/*",
     "src/**/*.vue",
     "types/**/*",
-    "tests/**/*.spec.ts",
+    "tests/**/*",
     "vite.config.*",
     "cypress.config.*"
   ],

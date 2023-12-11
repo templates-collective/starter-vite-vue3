@@ -57,7 +57,7 @@ export default (options: ConfigEnv) => {
     // Vitest Configuration.
     // https://github.com/vitest-dev/vitest
     test: {
-      include: ['test/**/*.test.ts'],
+      include: ['tests/unit/**/*.test.ts'],
       environment: 'jsdom',
     },
   })
