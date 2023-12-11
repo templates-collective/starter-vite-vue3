@@ -92,5 +92,5 @@ jobs:
         uses: cypress-io/github-action@v4
         with:
           install-command: echo
-          build: pnpm run build
-          start: npx vite preview
+          build: pnpm build
+          start: pnpm preview
