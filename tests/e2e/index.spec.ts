@@ -5,6 +5,6 @@ context('index page', () => {
 
   it('index page', () => {
     cy.url()
-      .should('eq', 'http://localhost:5173/')
+      .should('eq', 'http://localhost:4173/')
   })
 })
