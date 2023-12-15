@@ -4,7 +4,7 @@
 
 <br/>
 
-<p align="center"><b>Opuntia</b> <sup><em>(Preview)</em></sup></h1>
+<h3 align="center"><b>Opuntia</b> <sup><em>(Preview)</em></sup></h3>
 
 <p align="center">Stabilized Vite + Vue Starter Template.</p>
 
@@ -14,7 +14,7 @@
   <a target="_blank" href="https://opuntia.netlify.app">Live Demo</a>
 </p>
 
-<br>
+<br/>
 
 > **Note**: This template can't be applied to all scenes, currently only for single-page rendering (SPA). If you need server-side rendering (SSR) please use [Nuxt 3](https://nuxt.com), which also supports static-site generation (SSG).
 
