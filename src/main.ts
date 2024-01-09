@@ -5,10 +5,16 @@ import { setupPinia } from './plugins/pinia'
 import { setupVueRouter } from './plugins/vue-router'
 
 import App from './app.vue'
+import { setupVueI18n } from './plugins/vue-i18n'
 
 const app = createApp(App)
 
-setupVueRouter(app)
-setupPinia(app)
+async function bootstrap() {
+  setupPinia(app)
+  await setupVueI18n(app)
+  setupVueRouter(app)
 
-app.mount('#app')
+  app.mount('#app')
+}
+
+bootstrap()

@@ -1,0 +1,20 @@
+{
+  "app": {
+    "name": "Opuntia",
+    "description": "稳固的 Vite + Vue 模板"
+  },
+  "page": {
+    "index": {
+      "title": "Opuntia"
+    }
+  },
+  "button": {
+    "about": "关于",
+    "back": "返回",
+    "go": "确定",
+    "home": "首页",
+    "toggle-dark": "切换深色模式",
+    "toggle-langs": "切换语言"
+  },
+  "not-found": "未找到页面"
+}

@@ -1,0 +1,20 @@
+{
+  "app": {
+    "name": "Opuntia",
+    "description": "Stabilized Vite + Vue Starter Template."
+  },
+  "page": {
+    "index": {
+      "title": "Opuntia"
+    }
+  },
+  "button": {
+    "about": "About",
+    "back": "Back",
+    "go": "GO",
+    "home": "Home",
+    "toggle-dark": "Toggle dark mode",
+    "toggle-langs": "Change languages"
+  },
+  "not-found": "Not found"
+}

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 </script>
 
 <template>
@@ -6,9 +7,9 @@
     <header p-y-10 text-center>
       <img alt="Opuntia logo" src="@/assets/logo.svg" w-20>
       <h1 text-6>
-        Opuntia
+        {{ t('app.name') }}
       </h1>
-      <p>Stabilized Vite + Vue Starter Template.</p>
+      <p>{{ t('app.description') }}</p>
     </header>
     <main>
       <p text-center>

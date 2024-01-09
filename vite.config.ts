@@ -1,5 +1,5 @@
-import { URL, fileURLToPath } from 'node:url'
 import { cwd } from 'node:process'
+import { resolve } from 'node:path'
 import { type ConfigEnv, defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
@@ -18,7 +18,7 @@ export default (options: ConfigEnv) => {
     base: env.VITE_BASE,
     resolve: {
       alias: {
-        '@': fileURLToPath(new URL('./src', import.meta.url)),
+        '@': resolve(__dirname, 'src'),
       },
     },
     plugins: [
@@ -36,6 +36,7 @@ export default (options: ConfigEnv) => {
         imports: [
           'vue',
           'vue-router',
+          'vue-i18n',
         ],
         dts: 'types/auto-imports.d.ts',
         dirs: [
@@ -57,9 +58,8 @@ export default (options: ConfigEnv) => {
         runtimeOnly: true,
         compositionOnly: true,
         fullInstall: true,
-        include: [fileURLToPath(new URL('./locales', import.meta.url))],
+        include: [resolve(__dirname, 'locales/**')],
       }),
-
     ],
 
     // Vitest Configuration.

@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "ESNext",
     "jsx": "preserve",
-    "lib": ["DOM", "ESNext"],
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
     "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "node",
@@ -15,7 +18,8 @@
     "types": [
       "vite/client",
       "vitest",
-      "cypress"
+      "cypress",
+      "@intlify/unplugin-vue-i18n/messages"
     ],
     "allowJs": true,
     "strict": true,
