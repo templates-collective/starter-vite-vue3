@@ -62,7 +62,7 @@ jobs:
           cache: pnpm
 
       - run: pnpm install
-      - run: pnpm test:unit
+      - run: pnpm test-unit
 
   test-e2e:
     runs-on: ubuntu-latest
