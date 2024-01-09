@@ -22,7 +22,7 @@
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite) - the latest web develop stack.
+- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite) - the latest web develop stack. (supported [Vue DevTools](https://github.com/vuejs/devtools-next))
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine.
 
