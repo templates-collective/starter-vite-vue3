@@ -9,3 +9,5 @@ export function setupVueRouter(app: App) {
   })
   app.use(router)
 }
+
+export default setupVueRouter
