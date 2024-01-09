@@ -9,6 +9,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TodoButton: typeof import('./../src/components/TodoButton.vue')['default']
+    TodoButton: typeof import('./../src/components/todo-button.vue')['default']
   }
 }
