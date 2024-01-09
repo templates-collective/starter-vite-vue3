@@ -12,9 +12,9 @@
     </header>
     <main>
       <p text-center>
-        <TodoButton>
+        <todo-button>
           <span>Get Started</span>
-        </TodoButton>
+        </todo-button>
       </p>
     </main>
   </main>
