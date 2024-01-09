@@ -11,7 +11,7 @@ const app = createApp(App)
 
 async function bootstrap() {
   setupPinia(app)
-  await setupVueI18n(app)
+  setupVueI18n(app)
   setupVueRouter(app)
 
   app.mount('#app')
