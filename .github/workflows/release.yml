@@ -17,6 +17,6 @@ jobs:
         with:
           node-version: lts/*
 
-      - run: npx changelogithub
+      - run: npx changelogiter
         env:
-          GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
