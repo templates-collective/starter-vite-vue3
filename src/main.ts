@@ -1,11 +1,11 @@
-import './styles/main.css'
+import '@/styles/main.css'
 import 'virtual:uno.css'
 import { createApp } from 'vue'
-import { setupPinia } from './plugins/pinia'
-import { setupVueRouter } from './plugins/vue-router'
-import { setupVueI18n } from './plugins/vue-i18n'
+import { setupVueRouter } from '@/plugins/vue-router'
+import { setupVueI18n } from '@/plugins/vue-i18n'
+import { setupPinia } from '@/plugins/pinia'
 
-import App from './app.vue'
+import App from '@/app.vue'
 
 const app = createApp(App)
 

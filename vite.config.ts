@@ -8,6 +8,8 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import VueI18n from '@intlify/unplugin-vue-i18n/vite'
+import Layouts from 'vite-plugin-vue-layouts'
+import Pages from 'vite-plugin-pages'
 
 // Vite config.
 // https://vitejs.dev/config/
@@ -24,13 +26,15 @@ export default (options: ConfigEnv) => {
       },
     },
     plugins: [
-      // Vue plugin.
+      // Vue & Jsx plugin.
       // https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue
-      vue(),
-
-      // Vue jsx plugin.
       // https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx
+      vue(),
       vueJsx(),
+
+      // Vue layouts & pages plugin.
+      Layouts(),
+      Pages(),
 
       // UnoCSS plugin, you can see uno.config.ts.
       UnoCSS(),

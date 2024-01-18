@@ -1,5 +1,5 @@
 <template>
   <div text-center>
-    Home page
+    About page
   </div>
 </template>
