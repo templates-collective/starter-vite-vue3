@@ -9,6 +9,8 @@ import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import VueI18n from '@intlify/unplugin-vue-i18n/vite'
 
+// Vite config.
+// https://vitejs.dev/config/
 export default (options: ConfigEnv) => {
   const { mode } = options
 
@@ -22,15 +24,22 @@ export default (options: ConfigEnv) => {
       },
     },
     plugins: [
+      // Vue plugin.
+      // https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue
       vue(),
+
+      // Vue jsx plugin.
+      // https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx
       vueJsx(),
+
+      // UnoCSS plugin, you can see uno.config.ts.
       UnoCSS(),
 
-      // Vue Develop Tools.
-      // FIXME: Wait for the latest release.
+      // Vue dev tools.
       // https://github.com/webfansplz/vite-plugin-vue-devtools
       VueDevTools(),
 
+      // Auto import api.
       // https://github.com/unplugin/unplugin-auto-import
       AutoImport({
         imports: [
@@ -46,6 +55,7 @@ export default (options: ConfigEnv) => {
         vueTemplate: true,
       }),
 
+      // Auto registry components.
       // https://github.com/antfu/unplugin-vue-components
       Components({
         extensions: ['vue'],
@@ -53,6 +63,7 @@ export default (options: ConfigEnv) => {
         dts: 'types/components.d.ts',
       }),
 
+      // Auto import i18n locales.
       // https://github.com/intlify/bundle-tools/tree/main/packages/unplugin-vue-i18n
       VueI18n({
         runtimeOnly: true,
@@ -62,7 +73,7 @@ export default (options: ConfigEnv) => {
       }),
     ],
 
-    // Vitest Configuration.
+    // Vitest config.
     // https://github.com/vitest-dev/vitest
     test: {
       include: ['tests/unit/**/*.test.ts'],

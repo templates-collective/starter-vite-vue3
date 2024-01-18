@@ -31,12 +31,15 @@
     "skipLibCheck": true
   },
   "include": [
+    "mocks/**/*",
     "src/**/*",
     "src/**/*.vue",
-    "types/**/*",
     "tests/**/*",
-    "vite.config.*",
-    "cypress.config.*"
+    "types/**/*",
+    "cypress.config.ts",
+    "eslint.config.ts",
+    "uno.config.ts",
+    "vite.config.ts"
   ],
   "exclude": [
     "node_modules",
