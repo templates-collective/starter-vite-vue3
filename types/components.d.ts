@@ -10,6 +10,5 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheButton: typeof import('./../src/components/TheButton.vue')['default']
-    TodoButton: typeof import('./../src/components/TodoButton.vue')['default']
   }
 }
