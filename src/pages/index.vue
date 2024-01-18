@@ -13,9 +13,9 @@ const { t } = useI18n()
     </header>
     <main>
       <p text-center>
-        <todo-button>
+        <TodoButton>
           <span>Get Started</span>
-        </todo-button>
+        </TodoButton>
       </p>
     </main>
   </main>
