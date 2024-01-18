@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <button m-3 text-sm btn v-bind="$attrs">
+  <button m-3 text-sm btn outline-none border-none v-bind="$attrs">
     <slot />
   </button>
 </template>
