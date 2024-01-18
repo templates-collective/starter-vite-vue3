@@ -14,7 +14,7 @@
     "go": "GO",
     "home": "Home",
     "toggle-dark": "Toggle dark mode",
-    "toggle-langs": "Change languages"
+    "toggle-locale": "Change languages"
   },
   "not-found": "Not found"
 }

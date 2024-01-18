@@ -14,7 +14,7 @@
     "go": "确定",
     "home": "首页",
     "toggle-dark": "切换深色模式",
-    "toggle-langs": "切换语言"
+    "toggle-locale": "切换语言"
   },
   "not-found": "未找到页面"
 }

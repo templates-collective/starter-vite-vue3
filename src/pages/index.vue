@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const { t } = useI18n()
+
+const { toggleLocale } = useLanguage()
 </script>
 
 <template>
@@ -13,9 +15,9 @@ const { t } = useI18n()
     </header>
     <main>
       <p text-center>
-        <TodoButton>
-          <span>Get Started</span>
-        </TodoButton>
+        <TheButton @click="toggleLocale()">
+          {{ t('button.toggle-locale') }}
+        </TheButton>
       </p>
     </main>
   </main>
