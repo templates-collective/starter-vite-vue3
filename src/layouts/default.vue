@@ -13,7 +13,7 @@ const { toggleLocale } = useLanguage()
       </h1>
       <p>{{ t('app.description') }}</p>
     </header>
-    <main md:w-2xl w="90%" box-border m-auto h-auto border-2 border-dashed p-4 rd-2>
+    <main relative md:w-2xl w="90%" box-border m-auto h-auto border-2 border-dashed p-4 rd-2>
       <RouterView />
     </main>
     <footer p-y-10 flex justify-center>
