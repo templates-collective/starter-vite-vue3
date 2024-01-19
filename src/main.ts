@@ -1,6 +1,9 @@
+import '@unocss/reset/normalize.css'
 import '@/styles/main.css'
 import 'virtual:uno.css'
+
 import { createApp } from 'vue'
+
 import { setupVueRouter } from '@/plugins/vue-router'
 import { setupVueI18n } from '@/plugins/vue-i18n'
 import { setupPinia } from '@/plugins/pinia'

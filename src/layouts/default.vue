@@ -17,7 +17,7 @@ const { toggleLocale } = useLanguage()
       <RouterView />
     </main>
     <footer p-y-10 flex justify-center>
-      <Button is="vue:Button" @click="toggleLocale()">
+      <Button is="vue:Button" mr-4 @click="toggleLocale()">
         {{ t('button.toggle-locale') }}
       </Button>
       <Button is="vue:Button" @click="toggleDark()">
