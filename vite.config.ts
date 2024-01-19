@@ -50,6 +50,7 @@ export default (options: ConfigEnv) => {
           'vue',
           'vue-router',
           'vue-i18n',
+          '@vueuse/core',
         ],
         dts: 'types/auto-imports.d.ts',
         dirs: [

@@ -22,6 +22,7 @@
     "release": "bumpp"
   },
   "dependencies": {
+    "@unocss/reset": "^0.58.3",
     "pinia": "^2.1.7",
     "vue": "^3.4.14",
     "vue-i18n": "^9.9.0",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
+    "@iconify-json/carbon": "^1.1.27",
     "@intlify/unplugin-vue-i18n": "^1.6.0",
     "@tsconfig/node18": "^18.2.2",
     "@types/jsdom": "^21.1.6",
@@ -36,6 +38,7 @@
     "@vitejs/plugin-vue": "^5.0.3",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "@vue/test-utils": "^2.4.3",
+    "@vueuse/core": "^10.7.2",
     "bumpp": "^9.3.0",
     "cypress": "^13.6.3",
     "cypress-vite": "^1.5.0",

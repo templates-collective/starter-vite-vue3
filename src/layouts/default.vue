@@ -13,12 +13,15 @@ const { toggleLocale } = useLanguage()
       </h1>
       <p>{{ t('app.description') }}</p>
     </header>
-    <main w-4xl m-auto h-auto>
+    <main md:w-2xl w="90%" box-border m-auto h-auto border-2 border-dashed p-4 rd-2>
       <RouterView />
     </main>
-    <footer p-y-10 text-center>
+    <footer p-y-10 flex justify-center>
       <Button is="vue:Button" @click="toggleLocale()">
         {{ t('button.toggle-locale') }}
+      </Button>
+      <Button is="vue:Button" @click="toggleDark()">
+        <i i="carbon-sun dark:carbon-moon" />
       </Button>
     </footer>
   </main>
