@@ -38,7 +38,7 @@ We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https:
 
 ### Online
 
-<a href="https://stackblitz.com/github/kaivanwong/opuntia"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+<a href="https://stackblitz.com/github/kaivanwong/opuntia" target="_blank"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 
 ### GitHub Template
 
