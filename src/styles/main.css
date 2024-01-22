@@ -6,7 +6,7 @@ body,
   padding: 0;
 }
 
-html{
+html {
   background: theme('colors.white');
   color: theme('colors.black');
 }
@@ -15,4 +15,13 @@ html.dark {
   background: theme('colors.dark.800');
   color-scheme: dark;
   color: theme('colors.white');
+}
+
+
+a {
+  color: theme('colors.green.600');
+}
+
+a:hover {
+  color: theme('colors.green.700');
 }
