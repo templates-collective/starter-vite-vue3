@@ -7,9 +7,10 @@ import UnoCSS from 'unocss/vite'
 import VueDevTools from 'vite-plugin-vue-devtools'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
+import VueRouter from 'unplugin-vue-router/vite'
 import VueI18n from '@intlify/unplugin-vue-i18n/vite'
 import Layouts from 'vite-plugin-vue-layouts'
-import Pages from 'vite-plugin-pages'
+import { VueRouterAutoImports } from 'unplugin-vue-router'
 
 // Vite config.
 // https://vitejs.dev/config/
@@ -33,8 +34,12 @@ export default (options: ConfigEnv) => {
       vueJsx(),
 
       // Vue layouts & pages plugin.
+      // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
+      // https://github.com/posva/unplugin-vue-router
       Layouts(),
-      Pages(),
+      VueRouter({
+        dts: 'types/vue-router.d.ts',
+      }),
 
       // UnoCSS plugin, you can see uno.config.ts.
       UnoCSS(),
@@ -48,7 +53,7 @@ export default (options: ConfigEnv) => {
       AutoImport({
         imports: [
           'vue',
-          'vue-router',
+          VueRouterAutoImports,
           'vue-i18n',
           '@vueuse/core',
         ],

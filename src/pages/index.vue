@@ -1,8 +1,8 @@
-<route>
+<route lang="json">
   {
-    name: "index-page",
-    meta: {
-      title: "Home Page",
+    "name": "index-page",
+    "meta": {
+      "title": "Home Page"
     }
   }
 </route>
