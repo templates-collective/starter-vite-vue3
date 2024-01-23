@@ -17,10 +17,10 @@
     "resolveJsonModule": true,
     "types": [
       "vite/client",
-      "vitest",
-      "cypress",
       "@intlify/unplugin-vue-i18n/messages",
-      "vite-plugin-vue-layouts/client"
+      "vite-plugin-vue-layouts/client",
+      "vitest",
+      "cypress"
     ],
     "allowJs": true,
     "strict": true,

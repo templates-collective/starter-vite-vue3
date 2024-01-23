@@ -16,10 +16,12 @@ function goPage(path: string) {
   <main w-full h-full dark:color-warm-gray>
     <header py-10 text-center>
       <img alt="Opuntia logo" src="@/images/logo.svg" w-20 m-auto>
-      <h1 text-6>
+      <h1>
         {{ t('app.name') }}
       </h1>
-      <p>{{ t('app.description') }}</p>
+      <p m-y-2>
+        {{ t('app.description') }}
+      </p>
       <p flex gap-2 justify-center>
         <Button is="vue:Button" v-if="route.path === '/about'" @click="goPage('/')">
           {{ t('button.home') }}

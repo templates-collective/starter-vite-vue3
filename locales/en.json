@@ -5,13 +5,15 @@
   },
   "page": {
     "index": {
-      "title": "Opuntia"
+      "title": "Opuntia",
+      "get-network-data": "Get network data through"
     }
   },
   "button": {
     "about": "About",
     "back": "Back",
     "home": "Home",
+    "fetch": "Fetch",
     "toggle-dark": "Toggle dark mode",
     "toggle-locale": "Change languages"
   },
