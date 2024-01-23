@@ -6,7 +6,7 @@
 
 <h3 align="center"><b>Opuntia</b> <sup><em>(Preview)</em></sup></h3>
 
-<p align="center">Stabilized Vite + Vue Starter Template.</p>
+<p align="center">Vite + Vue starter template with the latest technology stack.</p>
 
 <br/>
 

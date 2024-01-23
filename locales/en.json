@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Opuntia",
-    "description": "Stabilized Vite + Vue Starter Template."
+    "description": "Vite + Vue starter template with the latest technology stack."
   },
   "page": {
     "index": {
