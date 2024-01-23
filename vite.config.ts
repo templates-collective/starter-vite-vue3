@@ -54,6 +54,10 @@ export default (options: ConfigEnv) => {
         imports: [
           'vue',
           VueRouterAutoImports,
+          {
+            // add any other imports you were relying on
+            'vue-router/auto': ['useLink'],
+          },
           'vue-i18n',
           '@vueuse/core',
         ],

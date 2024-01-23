@@ -1,18 +1,19 @@
 <script setup lang="ts">
 const router = useRouter()
+
 const { t } = useI18n()
 </script>
 
 <template>
-  <main p="x4 y10" text="center teal-700 dark:gray-200">
-    <div text-4xl>
+  <main py-20 text="center teal-700 dark:gray-200">
+    <p text-4xl mb-4>
       <i i-carbon-warning inline-block />
-    </div>
+    </p>
     <RouterView />
-    <div>
+    <p flex justify-center mt-10>
       <Button is="vue:Button" @click="router.back()">
         {{ t('button.back') }}
       </Button>
-    </div>
+    </p>
   </main>
 </template>
