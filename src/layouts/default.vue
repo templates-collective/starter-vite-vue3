@@ -15,7 +15,7 @@ function goPage(path: string) {
 <template>
   <main w-full h-full dark:color-warm-gray>
     <header py-10 text-center>
-      <img alt="Opuntia logo" src="@/assets/logo.svg" w-20 m-auto>
+      <img alt="Opuntia logo" src="@/images/logo.svg" w-20 m-auto>
       <h1 text-6>
         {{ t('app.name') }}
       </h1>

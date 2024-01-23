@@ -4,9 +4,9 @@ import 'virtual:uno.css'
 
 import { createApp } from 'vue'
 
-import { setupVueRouter } from '@/plugins/vue-router'
-import { setupVueI18n } from '@/plugins/vue-i18n'
-import { setupPinia } from '@/plugins/pinia'
+import { setupVueRouter } from '@/modules/vue-router'
+import { setupVueI18n } from '@/modules/vue-i18n'
+import { setupPinia } from '@/modules/pinia'
 
 import App from '@/app.vue'
 
