@@ -24,12 +24,12 @@
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/) - the latest web develop stack. (supported [Vue DevTools](https://github.com/vuejs/devtools-next))
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine.
-- 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
-- 🗂 [File based routing](./src/pages)
-- 📦 [Components auto importing](./src/components)
-- 📑 [Layout system](./src/layouts)
+- 🍍 [State Management via Pinia](https://pinia.vuejs.org/).
+- 🗂 [File based routing](./src/pages).
+- 📦 [Components auto importing](./src/components).
+- 📑 [Layout system](./src/layouts).
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly.
-- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons).
 - 🌍 [I18n ready](./locales), and it supports auto importing.
 - 🦾 TypeScript, of course.
 - ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions).
