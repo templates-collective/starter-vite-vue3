@@ -2,8 +2,6 @@
   <img width="88px" src="./src/images/logo.svg" />
 </p>
 
-<br/>
-
 <h3 align="center"><b>Opuntia</b> <sup><em>(Preview)</em></sup></h3>
 
 <p align="center">Vite + Vue starter template with the latest web develop stack.</p>
@@ -23,8 +21,6 @@
 <p align="center">
   <a href="https://stackblitz.com/github/kaivanwong/opuntia" target="_blank"><img height="32" src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 </p>
-
-<br />
 
 ## Features
 
