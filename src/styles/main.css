@@ -7,21 +7,22 @@ body,
 }
 
 html {
-  background: theme('colors.white');
-  color: theme('colors.black');
+  background: theme('light-color');
+  color: theme('dark-color');
 }
 
 html.dark {
-  background: theme('colors.dark.800');
   color-scheme: dark;
-  color: theme('colors.white');
+  background: theme('dark-color');
+  color: theme('light-color');
 }
 
 
 a {
-  color: theme('colors.green.600');
+  color: theme('primary-color');
+  text-decoration: underline dotted;
 }
 
 a:hover {
-  color: theme('colors.green.700');
+  text-decoration: underline;
 }
