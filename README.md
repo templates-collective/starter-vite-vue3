@@ -10,46 +10,36 @@
 
 <br/>
 
-<p align='center'>
-  <a target="_blank" href="https://opuntia.netlify.app">Live Demo</a>
+<p align="center">
+  <samp>
+    <a target="_blank" href="https://opuntia.netlify.app">Live Demo</a> ·
+    <b>English</b> |
+    <a href="./README.zh-CN.md">简体中文</a>
+  </samp>
 </p>
 
-<br/>
+<br />
 
-> **Note**: This template can't be applied to all scenes, currently only for single-page rendering (SPA). If you need server-side rendering (SSR) please use [Nuxt 3](https://nuxt.com), which also supports static-site generation (SSG).
+<p align="center">
+  <a href="https://stackblitz.com/github/kaivanwong/opuntia" target="_blank"><img height="32" src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+</p>
 
-<br>
+<br />
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/) - the latest web develop stack. (supported [Vue DevTools](https://github.com/vuejs/devtools-next))
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine.
-- 🍍 [State Management via Pinia](https://pinia.vuejs.org/).
-- 🗂 [File based routing](./src/pages).
-- 📦 [Components auto importing](./src/components).
-- 📑 [Layout system](./src/layouts).
-- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly.
-- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons).
-- 🌍 [I18n ready](./locales), and it supports auto importing.
+- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [UnoCSS](https://github.com/antfu/unocss), [Pinia](https://pinia.vuejs.org/)  - the latest web develop stack.
 - 🦾 TypeScript, of course.
+- 🗂 File-based [routing](./src/pages) and [layout](./src/layouts) system, it's auto.
+- 📦 [Components](./src/components) and [APIs](https://github.com/antfu/unplugin-auto-import) is auto importing.
+- 😃 Use [icons](https://github.com/antfu/unocss/tree/main/packages/preset-icons) from any icon sets with classes.
+- 🌍 [I18n ready](./locales), and it also supports auto importing.
 - ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions).
 - ☁️ Deploy on Netlify, zero-config.
 
-## IDE
+## Quick Start
 
-We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar) to get the best experience (You might want to disable [Vetur](https://vuejs.github.io/vetur/) if you have it).
-
-## Try it now!
-
-### Online
-
-<a href="https://stackblitz.com/github/kaivanwong/opuntia" target="_blank"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
-
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/kaivanwong/opuntia/generate).
-
-### Clone to local
+[Create a repo](https://github.com/kaivanwong/opuntia/generate) from this template on GitHub.
 
 If you prefer to do it manually with the cleaner git history.
 
@@ -61,31 +51,21 @@ cd opuntia-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
-## Checklist
-
 When you use this template, try follow the checklist to update your info properly:
 
 - [ ] Change the author name in `LICENSE`.
-- [ ] Change the title in `app.vue`.
+- [ ] Change the title in `locales/*.json`.
 - [ ] Change the hostname in `vite.config.ts`.
 - [ ] Change the favicon in `public`.
 - [ ] Remove the `.github` folder which contains the funding info.
 
-And, enjoy :)
-
 ## Usage
 
-### Development
+Development your app.
 
-Just run and visit http://localhost:5173.
+Just run `pnpm dev` and visit http://localhost:5173.
 
-```bash
-pnpm dev
-```
-
-### Build
-
-To build the App, run:
+To build the App, you can run:
 
 ```bash
 pnpm build
@@ -93,10 +73,6 @@ pnpm build
 
 And you will see the generated file in `dist` that ready to be served.
 
-### Deploy on Netlify
-
-Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
-
 ## License
 
-[MIT License](./LICENSE) © 2022-PRESENT [Kaivan Wong](https://github.com/kaivanwong)
+[MIT License](./LICENSE) © 2023-PRESENT [Kaivan Wong](https://github.com/kaivanwong)

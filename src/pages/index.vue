@@ -21,16 +21,16 @@ async function getFetchData() {
 </script>
 
 <template>
-  <h2 text-center>
+  <h2 text-center text-5 mb-2>
     {{ route.meta.title }}
   </h2>
-  <div p-y-4 flex justify-center items-center>
+  <div flex justify-center items-center>
     <span mr-2>{{ t('page.index.get-network-data') }}</span>
-    <Button is="vue:Button" lh="1.6" @click="getFetchData">
+    <Button is="vue:Button" lh-2 @click="getFetchData">
       {{ t('button.fetch') }}
     </Button>
   </div>
-  <div text-center mb-4>
+  <div v-if="fetchResult" text-center mt-4>
     {{ fetchResult }}
   </div>
 </template>

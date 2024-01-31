@@ -16,10 +16,10 @@ function goPage(path: string) {
   <main w-full h-full dark:color-warm-gray>
     <header py-10 text-center>
       <img alt="Opuntia logo" src="@/images/logo.svg" w-20 m-auto>
-      <h1>
+      <h1 text-6 font-bold m-y-6>
         {{ t('app.name') }}
       </h1>
-      <p m-y-2>
+      <p mb-4 text-4>
         {{ t('app.description') }}
       </p>
       <p flex gap-2 justify-center>
@@ -41,7 +41,7 @@ function goPage(path: string) {
       <RouterView />
     </main>
     <footer py-10 text-center>
-      <a href="https://github.com/kaivanwong/opuntia/blob/main/LICENSE" target="_blank">MIT License</a> © 2022-PRESENT <a href="https://github.com/kaivanwong" target="_blank">Kaivan Wong</a>
+      <a href="https://github.com/kaivanwong/opuntia/blob/main/LICENSE" target="_blank">MIT License</a> © 2023-PRESENT <a href="https://github.com/kaivanwong" target="_blank">Kaivan Wong</a>
     </footer>
   </main>
 </template>

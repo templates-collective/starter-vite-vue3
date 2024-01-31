@@ -17,12 +17,6 @@ html.dark {
   color: theme('light-color');
 }
 
-
 a {
   color: theme('primary-color');
-  text-decoration: underline dotted;
-}
-
-a:hover {
-  text-decoration: underline;
 }
