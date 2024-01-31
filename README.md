@@ -28,14 +28,14 @@
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [UnoCSS](https://github.com/antfu/unocss), [Pinia](https://pinia.vuejs.org/)  - the latest web develop stack.
-- 🦾 TypeScript, of course.
-- 🗂 File-based [routing](./src/pages) and [layout](./src/layouts) system, it's auto.
-- 📦 [Components](./src/components) and [APIs](https://github.com/antfu/unplugin-auto-import) is auto importing.
-- 😃 Use [icons](https://github.com/antfu/unocss/tree/main/packages/preset-icons) from any icon sets with classes.
-- 🌍 [I18n ready](./locales), and it also supports auto importing.
-- ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions).
-- ☁️ Deploy on Netlify, zero-config.
+- [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [UnoCSS](https://github.com/antfu/unocss), [Pinia](https://pinia.vuejs.org/)  - the latest web develop stack.
+- TypeScript, of course.
+- File-based [routing](./src/pages) and [layout](./src/layouts) system, it's auto.
+- [Components](./src/components) and [APIs](https://github.com/antfu/unplugin-auto-import) is auto importing.
+- Use [icons](https://github.com/antfu/unocss/tree/main/packages/preset-icons) from any icon sets with classes.
+- [I18n ready](./locales), and it also supports auto importing.
+- Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions).
+- Deploy on Netlify, zero-config.
 
 ## Quick Start
 
@@ -60,8 +60,6 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Remove the `.github` folder which contains the funding info.
 
 ## Usage
-
-Development your app.
 
 Just run `pnpm dev` and visit http://localhost:5173.
 
