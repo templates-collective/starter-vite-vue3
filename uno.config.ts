@@ -17,10 +17,7 @@ export default defineConfig({
     'dark-color': '#171717',
     'primary-color': '#15803d',
   },
-  shortcuts: [
-    ['btn', 'px-4 py-1 rounded inline-block bg-green-600 text-white cursor-pointer hover:bg-green-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
-    ['icon-btn', 'inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-green-600'],
-  ],
+  shortcuts: [],
   presets: [
     presetUno(),
     presetAttributify(),
