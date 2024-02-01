@@ -34,9 +34,8 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({
       fonts: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
-        mono: 'DM Mono',
+        sans: 'Inter:400,600,800',
+        mono: 'DM Mono:400,600',
       },
     }),
   ],

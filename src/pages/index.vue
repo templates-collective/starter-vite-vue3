@@ -15,15 +15,15 @@ const { t } = useI18n()
 const fetchResult = ref('')
 
 async function getFetchData() {
-  const { data } = await useAppFetch('todos/1')
+  const { data } = await useFetch('https://jsonplaceholder.typicode.com/todos/1')
   fetchResult.value = JSON.parse(data.value as string)
 }
 </script>
 
 <template>
-  <h2 text-center text-5 mb-2>
+  <h1 text-center text-base>
     {{ route.meta.title }}
-  </h2>
+  </h1>
   <div flex justify-center items-center>
     <span mr-2>{{ t('page.index.get-network-data') }}</span>
     <Button is="vue:Button" lh-2 @click="getFetchData">
