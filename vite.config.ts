@@ -14,6 +14,9 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 // Vite config.
 // https://vitejs.dev
 export default defineConfig({
+  server: {
+    port: 1977,
+  },
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
