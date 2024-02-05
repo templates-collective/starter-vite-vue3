@@ -32,7 +32,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "mocks/**/*",
     "src/**/*",
     "src/**/*.vue",
     "tests/**/*",
