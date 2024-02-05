@@ -57,7 +57,7 @@ When you use this template, try follow the checklist to update your info properl
 
 ## Usage
 
-Just run `pnpm dev` and visit http://localhost:5173.
+Just run `pnpm dev` and visit http://localhost:1977.
 
 To build the App, you can run:
 

@@ -2,6 +2,13 @@
 const router = useRouter()
 
 const { t } = useI18n()
+
+function goBack() {
+  if (history.length > 1)
+    router.back()
+  else
+    router.replace('/')
+}
 </script>
 
 <template>
@@ -11,7 +18,7 @@ const { t } = useI18n()
     </p>
     <RouterView />
     <p flex justify-center mt-10>
-      <Button is="vue:Button" @click="router.back()">
+      <Button is="vue:Button" @click="goBack">
         {{ t('button.back') }}
       </Button>
     </p>

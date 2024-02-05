@@ -1,10 +1,10 @@
-context('index page', () => {
+describe('index page', () => {
   beforeEach(() => {
     cy.visit('/')
   })
 
   it('index page', () => {
     cy.url()
-      .should('eq', 'http://localhost:4173/')
+      .should('eq', 'http://localhost:1977/')
   })
 })
