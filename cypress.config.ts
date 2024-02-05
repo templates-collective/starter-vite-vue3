@@ -1,6 +1,8 @@
 import { defineConfig } from 'cypress'
 import vitePreprocessor from 'cypress-vite'
 
+// Cypress config.
+// https://docs.cypress.io/guides/references/configuration
 export default defineConfig({
   e2e: {
     baseUrl: 'http://localhost:4173',
