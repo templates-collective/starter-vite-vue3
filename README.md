@@ -24,20 +24,19 @@
 
 ## Features
 
-- [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [UnoCSS](https://github.com/antfu/unocss), [Pinia](https://pinia.vuejs.org/)  - the latest web develop stack.
-- TypeScript, of course.
+- [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [UnoCSS](https://github.com/antfu/unocss), [Pinia](https://pinia.vuejs.org/), TypeScript - the latest web develop stack.
 - File-based [routing](./src/pages) and [layout](./src/layouts) system, it's auto.
 - [Components](./src/components) and [APIs](https://github.com/antfu/unplugin-auto-import) is auto importing.
 - Use [icons](https://github.com/antfu/unocss/tree/main/packages/preset-icons) from any icon sets with classes.
-- [I18n ready](./locales), and it also supports auto importing.
-- Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions).
+- [I18n](./locales) ready, and supports automatic import of translated files.
+- Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/).
 - Deploy on Netlify, zero-config.
 
 ## Quick Start
 
 [Create a repo](https://github.com/kaivanwong/opuntia/generate) from this template on GitHub.
 
-If you prefer to do it manually with the cleaner git history.
+If you prefer to do it manually with the cleaner git history:
 
 ```bash
 npx degit kaivanwong/opuntia opuntia-app
@@ -57,7 +56,11 @@ When you use this template, try follow the checklist to update your info properl
 
 ## Usage
 
-Just run `pnpm dev` and visit http://localhost:1977.
+Just run and visit http://localhost:1977.
+
+```bash
+pnpm dev
+```
 
 To build the App, you can run:
 
@@ -65,7 +68,11 @@ To build the App, you can run:
 pnpm build
 ```
 
-And you will see the generated file in `dist` that ready to be served.
+You will then see the `dist` folder generated for publishing, which you can preview locally with the following command.
+
+```bash
+pnpm preview
+```
 
 ## License
 
