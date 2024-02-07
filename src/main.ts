@@ -2,18 +2,13 @@ import '@unocss/reset/tailwind.css'
 import '@/styles/main.css'
 import 'virtual:uno.css'
 
-import { createApp } from 'vue'
+import { type Plugin, createApp } from 'vue'
 
 import App from '@/app.vue'
 
 const app = createApp(App)
 
-async function bootstrap() {
-  for (const [, fn] of Object.entries(import.meta.glob('./modules/*.ts'))) {
-    const module = (await fn() as any).default
-    app.use(module)
-  }
-  app.mount('#app')
-}
+for (const [, module] of Object.entries<{ default: Plugin }>(import.meta.glob('./modules/*.ts', { eager: true })))
+  app.use(module.default)
 
-bootstrap()
+app.mount('#app')
