@@ -15,9 +15,11 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 // https://vitejs.dev
 export default defineConfig({
   server: {
+    host: true,
     port: 1977,
   },
   preview: {
+    host: true,
     port: 1977,
   },
   resolve: {
