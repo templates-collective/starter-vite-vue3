@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Opuntia",
-    "description": "使用最新 Web 开发技术栈的 Vite + Vue 模板"
+    "description": "使用最新 Web 开发技术栈的 Vite + Vue 3 模板"
   },
   "page": {
     "index": {
