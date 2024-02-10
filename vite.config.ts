@@ -39,7 +39,7 @@ export default defineConfig({
     // https://github.com/posva/unplugin-vue-router
     Layouts(),
     VueRouter({
-      dts: 'types/vue-router.d.ts',
+      dts: 'typings/vue-router.d.ts',
     }),
 
     // UnoCSS plugin, you can see uno.config.ts.
@@ -62,7 +62,7 @@ export default defineConfig({
         'vue-i18n',
         '@vueuse/core',
       ],
-      dts: 'types/auto-imports.d.ts',
+      dts: 'typings/auto-imports.d.ts',
       dirs: [
         'src/composables',
         'src/stores',
@@ -75,7 +75,7 @@ export default defineConfig({
     Components({
       extensions: ['vue'],
       include: [/\.vue$/, /\.vue\?vue/],
-      dts: 'types/components.d.ts',
+      dts: 'typings/components.d.ts',
     }),
 
     // Auto import i18n locales.

@@ -35,7 +35,7 @@
     "src/**/*",
     "src/**/*.vue",
     "tests/**/*",
-    "types/**/*",
+    "typings/**/*",
     "cypress.config.ts",
     "eslint.config.ts",
     "uno.config.ts",
