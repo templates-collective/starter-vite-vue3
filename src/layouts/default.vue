@@ -41,7 +41,7 @@ function goPage(path: string) {
       <RouterView />
     </main>
     <footer mt-10 py-10 text-center>
-      <a href="https://github.com/kaivanwong/opuntia/blob/main/LICENSE" target="_blank">MIT License</a> © 2023-PRESENT <a href="https://github.com/kaivanwong" target="_blank">Kaivan Wong</a>
+      <a href="https://github.com/opuntia-dev/opuntia/blob/main/LICENSE" target="_blank">MIT License</a> © 2023-PRESENT <a href="https://github.com/kaivanwong" target="_blank">Kaivan Wong</a>
     </footer>
   </main>
 </template>

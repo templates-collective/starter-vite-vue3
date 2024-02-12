@@ -19,7 +19,7 @@
 <br />
 
 <p align="center">
-  <a href="https://stackblitz.com/github/kaivanwong/opuntia" target="_blank"><img height="32" src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+  <a href="https://stackblitz.com/github/opuntia-dev/opuntia" target="_blank"><img height="32" src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 </p>
 
 ## Features
@@ -34,12 +34,12 @@
 
 ## Quick Start
 
-[Create a repo](https://github.com/kaivanwong/opuntia/generate) from this template on GitHub.
+[Create a repo](https://github.com/opuntia-dev/opuntia/generate) from this template on GitHub.
 
 If you prefer to do it manually with the cleaner git history:
 
 ```bash
-npx degit kaivanwong/opuntia opuntia-app
+npx degit opuntia-dev/opuntia opuntia-app
 
 cd opuntia-app
 

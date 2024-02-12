@@ -19,7 +19,7 @@
 <br />
 
 <p align="center">
-  <a href="https://stackblitz.com/github/kaivanwong/opuntia" target="_blank"><img height="32" src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+  <a href="https://stackblitz.com/github/opuntia-dev/opuntia" target="_blank"><img height="32" src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 </p>
 
 ## 特性
@@ -34,12 +34,12 @@
 
 ## 快速开始
 
-使用这个模板在 Github 上[创建仓库](https://github.com/kaivanwong/opuntia/generate).
+使用这个模板在 Github 上[创建仓库](https://github.com/opuntia-dev/opuntia/generate).
 
 如果您更喜欢使用更干净的 git 历史记录手动执行此操作。
 
 ```bash
-npx degit kaivanwong/opuntia opuntia-app
+npx degit opuntia-dev/opuntia opuntia-app
 
 cd opuntia-app
 
