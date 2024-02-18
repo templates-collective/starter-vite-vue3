@@ -4,7 +4,7 @@
 
 <h3 align="center"><b>Opuntia</b> <sup><em>(Preview)</em></sup></h3>
 
-<p align="center">使用最新 Web 开发技术栈的 Vite + Vue 3 模板。</p>
+<p align="center">Vite + Vue 3 单页面 Web 启动模板。</p>
 
 <br/>
 

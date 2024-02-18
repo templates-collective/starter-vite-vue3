@@ -4,7 +4,7 @@
 
 <h3 align="center"><b>Opuntia</b> <sup><em>(Preview)</em></sup></h3>
 
-<p align="center">Vite + Vue 3 starter template with the latest web develop stack.</p>
+<p align="center">Vite + Vue 3 SPA web starter template.</p>
 
 <br/>
 
