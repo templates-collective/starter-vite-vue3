@@ -37,7 +37,6 @@
     "tests/**/*",
     "typings/**/*",
     "cypress.config.ts",
-    "eslint.config.ts",
     "uno.config.ts",
     "vite.config.ts"
   ],
