@@ -98,8 +98,8 @@ devDependencies:
     specifier: ^5.1.5
     version: 5.1.5(@types/node@18.19.22)
   vite-plugin-vue-devtools:
-    specifier: 7.0.6
-    version: 7.0.6(vite@5.1.5)(vue@3.4.21)
+    specifier: ^7.0.16
+    version: 7.0.16(vite@5.1.5)(vue@3.4.21)
   vite-plugin-vue-layouts:
     specifier: ^0.11.0
     version: 0.11.0(vite@5.1.5)(vue-router@4.3.0)(vue@3.4.21)
@@ -1171,6 +1171,7 @@ packages:
     resolution: {integrity: sha512-0bK9aG1kIg0Su7OcFTlexkVeNZ5IzEsnz1ept87a0TUgZ6HplSgkJAnFpEVRW7GRcikT4GlPV0pbtVedOaXHQQ==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -1179,6 +1180,7 @@ packages:
     resolution: {integrity: sha512-qB6AFRXuP8bdkBI4D7UPUbE7OQf7u5OL+R94JE42Z2Qjmyj74FtDdLGeriRyBDhm4rQSvqAGCGC01b8Fu2LthQ==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -1187,6 +1189,7 @@ packages:
     resolution: {integrity: sha512-sHig3LaGlpNgDj5o8uPEoGs98RII8HpNIqFtAI8/pYABO8i0nb1QzT0JDoXF/pxzqO+FkxvwkHZo9k0NJYDedg==}
     cpu: [riscv64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -1195,6 +1198,7 @@ packages:
     resolution: {integrity: sha512-nD3YcUv6jBJbBNFvSbp0IV66+ba/1teuBcu+fBBPZ33sidxitc6ErhON3JNavaH8HlswhWMC3s5rgZpM4MtPqQ==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -1203,6 +1207,7 @@ packages:
     resolution: {integrity: sha512-7/XVZqgBby2qp/cO0TQ8uJK+9xnSdJ9ct6gSDdEr4MfABrjTyrW6Bau7HQ73a2a5tPB7hno49A0y1jhWGDN9OQ==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -2355,10 +2360,6 @@ packages:
   /binary-extensions@2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
-    dev: true
-
-  /birpc@0.2.17:
-    resolution: {integrity: sha512-+hkTxhot+dWsLpp3gia5AkVHIsKlZybNT5gIYiDlNzJrmYPcTM9k5/w2uaj3IPpd7LlEYpmCj4Jj1nC41VhDFg==}
     dev: true
 
   /blob-util@2.0.2:
@@ -6373,8 +6374,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-devtools@7.0.6(vite@5.1.5)(vue@3.4.21):
-    resolution: {integrity: sha512-6a0LEhNNPJQdpNU/f5Wh5k40LwLpcoArG4wPuLZWbhu9ZUewzhrACddCZyKhuzS43S0Fi3oBXbqLmWMIkuQvxw==}
+  /vite-plugin-vue-devtools@7.0.16(vite@5.1.5)(vue@3.4.21):
+    resolution: {integrity: sha512-M7TPQhTGlz33TdHkZRSwe4ZfA+aAsy3vlvnOqxVtPCj9aEtaqhgKgbQidImAMd6BgTgSwZ/ga/iHWhwABDrdNQ==}
     engines: {node: '>=v14.21.3'}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0-0 || ^5.0.0-0
@@ -6382,7 +6383,6 @@ packages:
       '@vue/devtools-core': 7.0.16(vite@5.1.5)(vue@3.4.21)
       '@vue/devtools-kit': 7.0.16(vue@3.4.21)
       '@vue/devtools-shared': 7.0.16
-      birpc: 0.2.17
       execa: 8.0.1
       sirv: 2.0.4
       vite: 5.1.5(@types/node@18.19.22)
