@@ -27,7 +27,7 @@
 - [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [UnoCSS](https://github.com/antfu/unocss), [Pinia](https://pinia.vuejs.org/), TypeScript - the latest web develop stack.
 - File-based [routing](./src/pages) and [layout](./src/layouts) system, it's auto.
 - [Components](./src/components) and [APIs](https://github.com/antfu/unplugin-auto-import) is auto importing.
-- Use [icons](https://github.com/antfu/unocss/tree/main/packages/preset-icons) from any icon sets with classes.
+- Use SVG [icons](https://github.com/antfu/unocss/tree/main/packages/preset-icons) from any icon sets with classes.
 - [I18n](./locales) ready, and supports automatic import of translated files.
 - Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/).
 - Deploy on Netlify, zero-config.

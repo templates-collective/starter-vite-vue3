@@ -27,7 +27,7 @@
 - [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [UnoCSS](https://github.com/antfu/unocss), [Pinia](https://pinia.vuejs.org/), TypeScript - 最新 web 开发技术栈.
 - 基于文件的 [路由](./src/pages) 和 [布局](./src/layouts) 系统，支持自动化导入。
 - [组件](./src/components) 和 [功能 API](https://github.com/antfu/unplugin-auto-import) 是自动化导入的.
-- 各种 [图标集](https://github.com/antfu/unocss/tree/main/packages/preset-icons) 为你所用。
+- 各种 SVG [图标集](https://github.com/antfu/unocss/tree/main/packages/preset-icons) 为你所用。
 - [I18n 国际化](./locales) 开箱即用, 并且翻译文件支持自动导入。
 - 使用 [Vitest](https://github.com/vitest-dev/vitest) 的单元测试, 使用 [Cypress](https://cypress.io/) 的端到端测试.
 - 零配置部署 Netlify。
@@ -52,11 +52,11 @@ pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 - [ ] 在 `locales/*.json` 中改变标题。
 - [ ] 在 `public` 目录下改变favicon。
 - [ ] 移除 `.github` 文件夹中的信息。
-- [ ] 如果你不需要 `Netlify`，可用移除 `netlify.toml`。
+- [ ] 如果你不需要 `Netlify`，可以移除 `netlify.toml`。
 
 ## 使用
 
-只需要执行以下命令就可以在 http://localhost:1977。
+只需要执行以下命令就可以在 http://localhost:1977 中看到。
 
 ```bash
 pnpm dev
