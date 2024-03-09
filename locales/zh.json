@@ -1,12 +1,15 @@
 {
   "app": {
-    "name": "Opuntia",
+    "title": "Opuntia",
     "description": "Vite + Vue 3 单页面 Web 启动模板。"
   },
   "page": {
-    "index": {
+    "home": {
       "title": "Opuntia",
       "get-network-data": "获取网络数据通过"
+    },
+    "about": {
+      "title": "关于"
     }
   },
   "button": {

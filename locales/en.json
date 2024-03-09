@@ -1,12 +1,15 @@
 {
   "app": {
-    "name": "Opuntia",
+    "title": "Opuntia",
     "description": "Vite + Vue 3 SPA web starter template."
   },
   "page": {
-    "index": {
+    "home": {
       "title": "Opuntia",
       "get-network-data": "Get network data through"
+    },
+    "about": {
+      "title": "About"
     }
   },
   "button": {

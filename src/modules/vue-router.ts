@@ -15,7 +15,13 @@ router.beforeEach((to, from) => {
     NProgress.start()
 })
 
-router.afterEach(() => {
+router.afterEach((to) => {
+  const { setTitle } = useI18nTitle()
+  if (to.meta.locale)
+    setTitle(to.meta.locale)
+  else if (to.meta.title)
+    setTitle(to.meta.title, false)
+
   NProgress.done()
 })
 

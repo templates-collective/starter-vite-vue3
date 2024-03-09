@@ -1,8 +1,9 @@
 <route lang="json">
 {
-  "name": "index-page",
+  "name": "Home",
   "meta": {
-    "title": "Home Page"
+    "title": "Home Page",
+    "locale": "page.home.title"
   }
 }
 </route>

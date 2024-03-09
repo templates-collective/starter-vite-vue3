@@ -39,9 +39,9 @@ import type {
 
 declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
-    'index-page': RouteRecordInfo<'index-page', '/', Record<never, never>, Record<never, never>>,
+    'Home': RouteRecordInfo<'Home', '/', Record<never, never>, Record<never, never>>,
     'not-found-page': RouteRecordInfo<'not-found-page', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
-    'about-page': RouteRecordInfo<'about-page', '/about', Record<never, never>, Record<never, never>>,
+    'About': RouteRecordInfo<'About', '/about', Record<never, never>, Record<never, never>>,
   }
 }
 

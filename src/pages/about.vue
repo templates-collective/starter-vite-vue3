@@ -1,10 +1,11 @@
 <route lang="json">
-  {
-    "name": "about-page",
-    "meta": {
-      "title": "About Page"
-    }
+{
+  "name": "About",
+  "meta": {
+    "title": "About Page",
+    "locale": "page.about.title"
   }
+}
 </route>
 
 <script lang="ts" setup>

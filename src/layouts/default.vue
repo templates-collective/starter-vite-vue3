@@ -17,7 +17,7 @@ function goPage(path: string) {
     <header mb-10 py-10 text-center>
       <img alt="Opuntia logo" src="@/images/logo.svg" w-18 m-auto mb-4>
       <p text-6 font-bold mb-4>
-        {{ t('app.name') }}
+        {{ t('app.title') }}
       </p>
       <p mb-4 text-base>
         {{ t('app.description') }}
