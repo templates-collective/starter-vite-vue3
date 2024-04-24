@@ -26,7 +26,7 @@ async function getFetchData() {
     {{ route.meta.title }}
   </h1>
   <div flex justify-center items-center>
-    <span mr-2>{{ t('page.index.get-network-data') }}</span>
+    <span mr-2>{{ t('page.home.get-network-data') }}</span>
     <Button is="vue:Button" lh-2 @click="getFetchData">
       {{ t('button.fetch') }}
     </Button>
