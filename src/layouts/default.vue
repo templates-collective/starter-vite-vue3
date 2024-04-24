@@ -10,6 +10,10 @@ const router = useRouter()
 function goPage(path: string) {
   router.push(path)
 }
+
+function openGithub() {
+  window.open('https://github.com/opuntia-dev/opuntia')
+}
 </script>
 
 <template>
@@ -34,6 +38,9 @@ function goPage(path: string) {
         </Button>
         <Button is="vue:Button" @click="toggleDark()">
           <i i="carbon-sun dark:carbon-moon" />
+        </Button>
+        <Button is="vue:Button" @click="openGithub()">
+          <i i="carbon-logo-github" />
         </Button>
       </p>
     </header>
