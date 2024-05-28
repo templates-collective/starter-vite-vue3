@@ -19,7 +19,7 @@ function openGithub() {
 <template>
   <main w-full h-full dark:color-warm-gray>
     <header mb-10 py-10 text-center>
-      <img alt="Opuntia logo" src="@/images/logo.svg" w-18 m-auto mb-4>
+      <img alt="Opuntia logo" src="@/assets/logo.svg" w-18 m-auto mb-4>
       <p text-6 font-bold mb-4>
         {{ t('app.title') }}
       </p>
@@ -48,7 +48,7 @@ function openGithub() {
       <RouterView />
     </main>
     <footer mt-10 py-10 text-center>
-      <a href="https://github.com/opuntia-dev/opuntia/blob/main/LICENSE" target="_blank">MIT License</a> © 2023-PRESENT <a href="https://github.com/kaivanwong" target="_blank">Kaivan Wong</a>
+      <a href="https://github.com/opuntia-dev/opuntia/blob/main/LICENSE" target="_blank">MIT License</a> © {{ new Date().getFullYear() }} <a href="https://github.com/kevinwong865" target="_blank">Kevin Wong</a>
     </footer>
   </main>
 </template>

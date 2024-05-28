@@ -2,9 +2,9 @@
   <img width="88px" src="./src/images/logo.svg" />
 </p>
 
-<h3 align="center"><b>Opuntia</b> <sup><em>(Preview)</em></sup></h3>
+<h3 align="center"><b>Opuntia</b> <sup><em>dev</em></sup></h3>
 
-<p align="center">Vite + Vue 3 SPA web starter template.</p>
+<p align="center">Best practices for development using the Vue.</p>
 
 <br/>
 
@@ -76,4 +76,4 @@ pnpm preview
 
 ## License
 
-[MIT License](./LICENSE) © 2023-PRESENT [Kaivan Wong](https://github.com/kaivanwong)
+[MIT License](./LICENSE) © 2024 [Kevin Wong](https://github.com/kevinwong865)

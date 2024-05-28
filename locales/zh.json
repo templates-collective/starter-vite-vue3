@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "Opuntia",
-    "description": "Vite + Vue 3 单页面 Web 启动模板。"
+    "description": "Vite + Vue 3 启动模板。"
   },
   "page": {
     "home": {

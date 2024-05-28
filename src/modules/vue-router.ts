@@ -21,6 +21,8 @@ router.afterEach((to) => {
     setTitle(to.meta.locale)
   else if (to.meta.title)
     setTitle(to.meta.title, false)
+  else
+    setTitle('app.title')
 
   NProgress.done()
 })
