@@ -42,7 +42,7 @@ jobs:
       - name: Typecheck
         run: pnpm type-check
 
-  test-unit:
+  test:
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -62,35 +62,4 @@ jobs:
           cache: pnpm
 
       - run: pnpm install
-      - run: pnpm test-unit
-
-  test-e2e:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/cache@v3
-        with:
-          path: |
-            ~/.cache
-          key: cypress-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
-
-      - uses: pnpm/action-setup@v2
-
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: lts/*
-          registry-url: https://registry.npmjs.org/
-          cache: pnpm
-
-      - run: pnpm install
-
-      - name: Cypress PNPM Patch
-        run: cp pnpm-lock.yaml package-lock.json
-
-      - name: Cypress
-        uses: cypress-io/github-action@v4
-        with:
-          install-command: echo
-          build: pnpm build
-          start: pnpm preview
+      - run: pnpm test
