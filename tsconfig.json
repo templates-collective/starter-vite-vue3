@@ -19,8 +19,7 @@
       "vite/client",
       "@intlify/unplugin-vue-i18n/messages",
       "vite-plugin-vue-layouts/client",
-      "vitest",
-      "cypress"
+      "vitest"
     ],
     "allowJs": true,
     "strict": true,
@@ -36,7 +35,6 @@
     "src/**/*.vue",
     "tests/**/*",
     "typings/**/*",
-    "cypress.config.ts",
     "uno.config.ts",
     "vite.config.ts"
   ],

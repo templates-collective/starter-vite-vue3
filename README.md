@@ -1,26 +1,8 @@
-<p align="center">
-  <img width="88px" src="./src/images/logo.svg" />
-</p>
+# Opuntia
 
-<h3 align="center"><b>Opuntia</b> <sup><em>dev</em></sup></h3>
+🌵 Vite + Vue 3 starter template.
 
-<p align="center">Best practices for development using the Vue.</p>
-
-<br/>
-
-<p align="center">
-  <samp>
-    <a target="_blank" href="https://opuntia.netlify.app">Live Demo</a> ·
-    <b>English</b> |
-    <a href="./README.zh-CN.md">简体中文</a>
-  </samp>
-</p>
-
-<br />
-
-<p align="center">
-  <a href="https://stackblitz.com/github/opuntia-dev/opuntia" target="_blank"><img height="32" src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
-</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b182d34-7d30-4206-aad9-9789d1c8ed11/deploy-status)](https://app.netlify.com/sites/opuntia/deploys)
 
 ## Features
 
@@ -33,6 +15,8 @@
 - Deploy on Netlify, zero-config.
 
 ## Quick Start
+
+<a href="https://stackblitz.com/github/opuntia-dev/opuntia" target="_blank"><img height="32" src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 
 [Create a repo](https://github.com/opuntia-dev/opuntia/generate) from this template on GitHub.
 
