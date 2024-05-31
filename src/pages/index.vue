@@ -15,7 +15,7 @@ const { t } = useI18n()
 
 const fetchResult = ref('')
 
-async function getFetchData() {
+async function fetchData() {
   const { data } = await useFetch('https://jsonplaceholder.typicode.com/todos/1')
   fetchResult.value = JSON.parse(data.value as string)
 }
@@ -27,8 +27,8 @@ async function getFetchData() {
   </h1>
   <div flex justify-center items-center>
     <span mr-2>{{ t('page.home.get-network-data') }}</span>
-    <Button is="vue:Button" lh-2 @click="getFetchData">
-      {{ t('button.fetch') }}
+    <Button is="vue:Button" lh-2 @click="fetchData">
+      Fetch
     </Button>
   </div>
   <div v-if="fetchResult" text-center mt-4>

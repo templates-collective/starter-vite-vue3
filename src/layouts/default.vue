@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { t } = useI18n()
 
-const { toggleLocale } = useLanguage()
+const { toggleLocale } = useLocale()
 
 const route = useRoute()
 

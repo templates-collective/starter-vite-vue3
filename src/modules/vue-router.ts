@@ -4,25 +4,24 @@ import { routes as autoRoutes } from 'vue-router/auto/routes'
 import NProgress from 'nprogress'
 
 export const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.VITE_BASE_URL),
   extendRoutes: () => {
     return setupLayouts(autoRoutes)
   },
 })
 
-router.beforeEach((to, from) => {
-  if (to.path !== from.path)
-    NProgress.start()
+router.beforeEach(() => {
+  NProgress.start()
 })
 
 router.afterEach((to) => {
-  const { setTitle } = useI18nTitle()
+  const { setLocaleTitle } = useLocale()
   if (to.meta.locale)
-    setTitle(to.meta.locale)
+    setLocaleTitle(to.meta.locale)
   else if (to.meta.title)
-    setTitle(to.meta.title, false)
+    setLocaleTitle(to.meta.title, false)
   else
-    setTitle('app.title')
+    setLocaleTitle()
 
   NProgress.done()
 })
