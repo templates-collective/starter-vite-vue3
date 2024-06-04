@@ -27,9 +27,9 @@ async function fetchData() {
   </h1>
   <div flex justify-center items-center>
     <span mr-2>{{ t('page.home.get-network-data') }}</span>
-    <Button is="vue:Button" lh-2 @click="fetchData">
+    <TheButton lh-2 @click="fetchData">
       Fetch
-    </Button>
+    </TheButton>
   </div>
   <div v-if="fetchResult" text-center mt-4>
     {{ fetchResult }}

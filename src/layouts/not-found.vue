@@ -18,9 +18,9 @@ function goBack() {
     </p>
     <RouterView />
     <p flex justify-center mt-10>
-      <Button is="vue:Button" @click="goBack">
+      <TheButton @click="goBack">
         {{ t('button.back') }}
-      </Button>
+      </TheButton>
     </p>
   </main>
 </template>

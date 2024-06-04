@@ -96,7 +96,7 @@ export default defineConfig(({ mode }) => {
     // Vitest config.
     // https://github.com/vitest-dev/vitest
     test: {
-      include: ['tests/unit/**/*'],
+      include: ['tests/**/*'],
       environment: 'jsdom',
     },
   }

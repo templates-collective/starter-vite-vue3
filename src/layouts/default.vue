@@ -27,21 +27,21 @@ function openGithub() {
         {{ t('app.description') }}
       </p>
       <p flex gap-2 justify-center>
-        <Button is="vue:Button" v-if="route.path === '/about'" @click="goPage('/')">
+        <TheButton v-if="route.path === '/about'" @click="goPage('/')">
           {{ t('button.home') }}
-        </Button>
-        <Button is="vue:Button" v-else @click="goPage('/about')">
+        </TheButton>
+        <TheButton v-else @click="goPage('/about')">
           {{ t('button.about') }}
-        </Button>
-        <Button is="vue:Button" @click="toggleLocale()">
+        </TheButton>
+        <TheButton @click="toggleLocale()">
           {{ t('button.toggle-locale') }}
-        </Button>
-        <Button is="vue:Button" @click="toggleDark()">
+        </TheButton>
+        <TheButton @click="toggleDark()">
           <i i="carbon-sun dark:carbon-moon" />
-        </Button>
-        <Button is="vue:Button" @click="openGithub()">
+        </TheButton>
+        <TheButton @click="openGithub()">
           <i i="carbon-logo-github" />
-        </Button>
+        </TheButton>
       </p>
     </header>
     <main prose m-auto>
