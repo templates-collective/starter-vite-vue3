@@ -1,14 +1,10 @@
 import '@unocss/reset/tailwind.css'
 import '@/styles/main.css'
 import 'virtual:uno.css'
+import { installModules } from './utils/install'
 
-import { type Plugin, createApp } from 'vue'
-
-import App from '@/app.vue'
+import App from '@/App.vue'
 
 const app = createApp(App)
 
-for (const [, module] of Object.entries<{ default: Plugin }>(import.meta.glob('./modules/*.ts', { eager: true })))
-  app.use(module.default)
-
-app.mount('#app')
+installModules(app).mount('#app')
