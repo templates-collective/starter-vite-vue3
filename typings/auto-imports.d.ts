@@ -43,7 +43,6 @@ declare global {
   const getCurrentScope: typeof import('vue')['getCurrentScope']
   const getTodoDetailApi: typeof import('../src/apis/todo')['getTodoDetailApi']
   const getTodoListApi: typeof import('../src/apis/todo')['getTodoListApi']
-  const getTodosApi: typeof import('../src/apis/todo')['getTodosApi']
   const h: typeof import('vue')['h']
   const ignorableWatch: typeof import('@vueuse/core')['ignorableWatch']
   const inject: typeof import('vue')['inject']
