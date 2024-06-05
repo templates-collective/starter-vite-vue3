@@ -22,6 +22,8 @@ export default defineConfig(({ mode, command }) => {
     server: {
       host: true,
       port: 1977,
+      // Proxy request and socket.
+      // https://vitejs.dev/config/server-options.html#server-proxy
       proxy: command === 'serve' && (env.VITE_APP_REQUEST_PROXY_URL || env.VITE_APP_SOCKET_PROXY_URL)
         ? {
             [env.VITE_APP_REQUEST_URL]: {
@@ -43,6 +45,8 @@ export default defineConfig(({ mode, command }) => {
     },
     resolve: {
       alias: {
+        // Alias for path.
+        // https://vitejs.dev/config/shared-options.html#resolve-alias
         '@': resolve(__dirname, 'src'),
       },
     },
