@@ -6,7 +6,7 @@
   "page": {
     "home": {
       "title": "Opuntia",
-      "get-network-data": "获取网络数据通过"
+      "get-todo-list": "获取待办事项列表"
     },
     "about": {
       "title": "关于"
@@ -19,5 +19,6 @@
     "toggle-dark": "切换深色模式",
     "toggle-locale": "切换语言"
   },
+  "empty": "暂无内容",
   "not-found": "未找到页面"
 }

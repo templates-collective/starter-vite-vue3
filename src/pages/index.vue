@@ -9,29 +9,36 @@
 </route>
 
 <script lang="ts" setup>
+import type { TodoList } from '@/apis/todo'
+
 const route = useRoute()
 
 const { t } = useI18n()
 
-const fetchResult = ref('')
+const todoList = ref<TodoList>([])
 
-async function fetchData() {
-  const { data } = await useFetch('https://jsonplaceholder.typicode.com/todos/1')
-  fetchResult.value = JSON.parse(data.value as string)
+function fetchData() {
+  getTodoListApi().then((res) => {
+    todoList.value = res.data
+  })
 }
 </script>
 
 <template>
-  <h1 text-center text-base>
+  <h1 text-center text-lg font-bold mb-5>
     {{ route.meta.title }}
   </h1>
-  <div flex justify-center items-center>
-    <span mr-2>{{ t('page.home.get-network-data') }}</span>
+  <div flex justify-center items-center my-5>
     <TheButton lh-2 @click="fetchData">
-      Fetch
+      {{ t('page.home.get-todo-list') }}
     </TheButton>
   </div>
-  <div v-if="fetchResult" text-center mt-4>
-    {{ fetchResult }}
-  </div>
+  <ul v-for="item in todoList" :key="item.id" my-5 h-xl overflow-y-auto>
+    <li>
+      {{ item.title }}
+    </li>
+  </ul>
+  <p v-if="todoList.length === 0" my-5 text-center op-75>
+    {{ t('empty') }}
+  </p>
 </template>

@@ -6,7 +6,7 @@
   "page": {
     "home": {
       "title": "Opuntia",
-      "get-network-data": "Get network data through"
+      "get-todo-list": "Get Todo List"
     },
     "about": {
       "title": "About"
@@ -19,5 +19,6 @@
     "toggle-dark": "Toggle dark mode",
     "toggle-locale": "Change languages"
   },
+  "empty": "No content",
   "not-found": "Page Not found"
 }

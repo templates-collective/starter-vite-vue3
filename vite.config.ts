@@ -12,8 +12,6 @@ import VueI18n from '@intlify/unplugin-vue-i18n/vite'
 import Layouts from 'vite-plugin-vue-layouts'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
 
-// Vite config.
-// https://vitejs.dev
 export default defineConfig(({ mode, command }) => {
   const env = loadEnv(mode, cwd(), '')
 
@@ -29,12 +27,12 @@ export default defineConfig(({ mode, command }) => {
             [env.VITE_APP_REQUEST_URL]: {
               target: env.VITE_APP_REQUEST_PROXY_URL,
               changeOrigin: true,
-              rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_PROXY_URL}`), ''),
+              rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
             },
             [env.VITE_APP_SOCKET_URL]: {
               target: env.VITE_APP_SOCKET_PROXY_URL,
               ws: true,
-              rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_SOCKET_PROXY_URL}`), ''),
+              rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
             },
           }
         : {},
@@ -87,7 +85,9 @@ export default defineConfig(({ mode, command }) => {
         ],
         dts: 'typings/auto-imports.d.ts',
         dirs: [
+          'src/apis',
           'src/composables',
+          'src/constants',
           'src/stores',
           'src/utils',
         ],

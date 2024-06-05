@@ -1,5 +1,8 @@
 import { i18n } from '@/modules/vue-i18n'
 
+/**
+ * Locale composable for vue-i18n.
+ */
 export function useLocale() {
   const { locale, messages, t } = i18n.global
 
