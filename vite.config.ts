@@ -14,14 +14,30 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 
 // Vite config.
 // https://vitejs.dev
-export default defineConfig(({ mode }) => {
+export default defineConfig(({ mode, command }) => {
   const env = loadEnv(mode, cwd(), '')
+
+  const proxy = command === 'serve' && env.VITE_SERVER_PROXY === 'true'
+    ? {
+        [env.VITE_REQUEST_PROXY_URL]: {
+          target: env.VITE_REQUEST_PROXY_TARGET,
+          changeOrigin: true,
+          rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_REQUEST_PROXY_URL}`), ''),
+        },
+        [env.VITE_SOCKET_PROXY_URL]: {
+          target: env.VITE_SOCKET_PROXY_TARGET,
+          ws: true,
+          rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_SOCKET_PROXY_URL}`), ''),
+        },
+      }
+    : {}
 
   return {
     base: env.VITE_BASE_URL || '/',
     server: {
       host: true,
       port: 1977,
+      proxy,
     },
     preview: {
       host: true,
