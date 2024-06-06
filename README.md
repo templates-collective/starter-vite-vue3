@@ -1,6 +1,6 @@
 # Opuntia
 
-Vite + Vue 3 SPA starter template, it's fast.
+🌵 Vite + Vue 3 SPA starter template, it's fast.
 
 > Build time less than 3s.
 
