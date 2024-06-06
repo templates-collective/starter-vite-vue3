@@ -23,7 +23,7 @@
 
 ## Quick Start
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kaivanwong/astro-theme-vitesse)
+[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/opuntia-dev/opuntia)
 
 Click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
 
