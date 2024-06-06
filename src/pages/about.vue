@@ -13,7 +13,7 @@ const route = useRoute()
 </script>
 
 <template>
-  <h2 text-center text-5>
+  <h1 text-center text-lg font-bold mb-5>
     {{ route.meta.title }}
-  </h2>
+  </h1>
 </template>
