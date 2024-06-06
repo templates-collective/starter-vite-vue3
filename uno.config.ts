@@ -11,9 +11,9 @@ import {
 
 export default defineConfig({
   theme: {
-    'light-color': '#f2f1ec',
-    'dark-color': '#171717',
-    'primary-color': '#15803d',
+    colors: {
+      primary: '#15803d',
+    },
   },
   shortcuts: [],
   presets: [

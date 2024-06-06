@@ -7,18 +7,16 @@ body,
 }
 
 html {
-  background: theme('light-color');
-  color: theme('dark-color');
+  --at-apply: bg-neutral-100 text-neutral-900;
 }
 
 html.dark {
   color-scheme: dark;
-  background: theme('dark-color');
-  color: theme('light-color');
+  --at-apply: bg-neutral-900 text-neutral-200;
 }
 
 a {
-  color: theme('primary-color');
+  --at-apply: color-primary;
 }
 
 #nprogress {
@@ -26,7 +24,7 @@ a {
 }
 
 #nprogress .bar {
-  background: theme('primary-color');
+  --at-apply: bg-primary;
   opacity: 0.75;
   position: fixed;
   z-index: 1031;
