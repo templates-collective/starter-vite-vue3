@@ -41,7 +41,7 @@ declare global {
   const extendRef: typeof import('@vueuse/core')['extendRef']
   const getCurrentInstance: typeof import('vue')['getCurrentInstance']
   const getCurrentScope: typeof import('vue')['getCurrentScope']
-  const getTodoDetailApi: typeof import('../src/apis/todo')['getTodoDetailApi']
+  const getTodoItemApi: typeof import('../src/apis/todo')['getTodoItemApi']
   const getTodoListApi: typeof import('../src/apis/todo')['getTodoListApi']
   const h: typeof import('vue')['h']
   const ignorableWatch: typeof import('@vueuse/core')['ignorableWatch']
@@ -349,7 +349,7 @@ declare module 'vue' {
     readonly extendRef: UnwrapRef<typeof import('@vueuse/core')['extendRef']>
     readonly getCurrentInstance: UnwrapRef<typeof import('vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
-    readonly getTodoDetailApi: UnwrapRef<typeof import('../src/apis/todo')['getTodoDetailApi']>
+    readonly getTodoItemApi: UnwrapRef<typeof import('../src/apis/todo')['getTodoItemApi']>
     readonly getTodoListApi: UnwrapRef<typeof import('../src/apis/todo')['getTodoListApi']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
     readonly ignorableWatch: UnwrapRef<typeof import('@vueuse/core')['ignorableWatch']>
@@ -647,7 +647,7 @@ declare module '@vue/runtime-core' {
     readonly extendRef: UnwrapRef<typeof import('@vueuse/core')['extendRef']>
     readonly getCurrentInstance: UnwrapRef<typeof import('vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
-    readonly getTodoDetailApi: UnwrapRef<typeof import('../src/apis/todo')['getTodoDetailApi']>
+    readonly getTodoItemApi: UnwrapRef<typeof import('../src/apis/todo')['getTodoItemApi']>
     readonly getTodoListApi: UnwrapRef<typeof import('../src/apis/todo')['getTodoListApi']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
     readonly ignorableWatch: UnwrapRef<typeof import('@vueuse/core')['ignorableWatch']>

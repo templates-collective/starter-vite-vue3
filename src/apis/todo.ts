@@ -37,11 +37,11 @@ export function getTodoListApi() {
 }
 
 /**
- * Get todo detail.
+ * Get todo item.
  *
  * @param id
  */
-export function getTodoDetailApi(id: number) {
+export function getTodoItemApi(id: number) {
   return request.get<TodoItem>(`/todos`, {
     params: {
       id,
