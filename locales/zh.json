@@ -9,7 +9,9 @@
       "get-todo-list": "获取待办事项列表"
     },
     "about": {
-      "title": "关于"
+      "title": "关于",
+      "show-logo": "显示 Logo",
+      "hide-logo": "隐藏 Logo"
     }
   },
   "button": {

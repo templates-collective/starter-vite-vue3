@@ -9,7 +9,9 @@
       "get-todo-list": "Get Todo List"
     },
     "about": {
-      "title": "About"
+      "title": "About",
+      "show-logo": "Show Logo",
+      "hide-logo": "Hide Logo"
     }
   },
   "button": {

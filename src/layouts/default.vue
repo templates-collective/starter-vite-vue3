@@ -7,6 +7,8 @@ const route = useRoute()
 
 const router = useRouter()
 
+const { showLogo } = storeToRefs(useSettingStore())
+
 function goPage(path: string) {
   router.push(path)
 }
@@ -19,9 +21,10 @@ function openGithub() {
 <template>
   <main w-full h-full dark:color-warm-gray>
     <header mb-10 py-10 text-center>
-      <img alt="Opuntia logo" src="@/assets/logo.svg" w-18 m-auto mb-4>
+      <img v-if="showLogo" alt="Opuntia logo" src="@/assets/logo.svg" w-18 m-auto mb-4>
       <p text-6 font-bold mb-4>
         {{ t('app.title') }}
+        <sup><i>{{ APP_VERSION }}</i></sup>
       </p>
       <p mb-4 text-base>
         {{ t('app.description') }}

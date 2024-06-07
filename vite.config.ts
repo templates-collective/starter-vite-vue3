@@ -82,6 +82,7 @@ export default defineConfig(({ mode, command }) => {
           },
           'vue-i18n',
           '@vueuse/core',
+          'pinia',
         ],
         dts: 'typings/auto-imports.d.ts',
         dirs: [
