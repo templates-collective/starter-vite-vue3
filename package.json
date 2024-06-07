@@ -1,5 +1,5 @@
 {
-  "name": "@opuntia-dev/opuntia",
+  "name": "opuntia",
   "type": "module",
   "version": "0.14.0",
   "packageManager": "pnpm@8.15.8",
