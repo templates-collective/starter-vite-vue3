@@ -2,8 +2,6 @@
 
 🌵 Vite + Vue 3 SPA starter template, it's fast.
 
-> Build time less than 3s.
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6b182d34-7d30-4206-aad9-9789d1c8ed11/deploy-status)](https://app.netlify.com/sites/opuntia/deploys)
 
 ## Features
