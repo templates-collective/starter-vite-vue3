@@ -62,7 +62,7 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 When you use this template, try follow the checklist to update your info properly:
 
 - [ ] Change the author name in `LICENSE`.
-- [ ] Change the title in `locales/*.json`.
+- [ ] Change the title in `locales/*.json` and `VITE_APP_DEFAULT_TITLE` env.
 - [ ] Change the favicon in `public` and remove preview image.
 - [ ] Remove the `.github` folder which contains the funding info.
 
