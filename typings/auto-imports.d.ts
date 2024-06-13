@@ -9,7 +9,7 @@ declare global {
   const APP_NAME: typeof import('../src/constants/constants')['APP_NAME']
   const APP_STORAGE_KEY: typeof import('../src/constants/constants')['APP_STORAGE_KEY']
   const APP_VERSION: typeof import('../src/constants/constants')['APP_VERSION']
-  const ContentTypeEnum: typeof import('../src/constants/enum')['ContentTypeEnum']
+  const ContentTypeEnum: typeof import('../src/constants/enums')['ContentTypeEnum']
   const EffectScope: typeof import('vue')['EffectScope']
   const acceptHMRUpdate: typeof import('pinia')['acceptHMRUpdate']
   const asyncComputed: typeof import('@vueuse/core')['asyncComputed']
@@ -322,8 +322,8 @@ declare global {
   export type { Component, ComponentPublicInstance, ComputedRef, ExtractDefaultPropTypes, ExtractPropTypes, ExtractPublicPropTypes, InjectionKey, PropType, Ref, VNode, WritableComputedRef } from 'vue'
   import('vue')
   // @ts-ignore
-  export type { ContentTypeEnum } from '../src/constants/enum'
-  import('../src/constants/enum')
+  export type { ContentTypeEnum } from '../src/constants/enums'
+  import('../src/constants/enums')
 }
 // for vue template auto import
 import { UnwrapRef } from 'vue'
@@ -333,7 +333,7 @@ declare module 'vue' {
     readonly APP_KEY: UnwrapRef<typeof import('../src/constants/constants')['APP_KEY']>
     readonly APP_STORAGE_KEY: UnwrapRef<typeof import('../src/constants/constants')['APP_STORAGE_KEY']>
     readonly APP_VERSION: UnwrapRef<typeof import('../src/constants/constants')['APP_VERSION']>
-    readonly ContentTypeEnum: UnwrapRef<typeof import('../src/constants/enum')['ContentTypeEnum']>
+    readonly ContentTypeEnum: UnwrapRef<typeof import('../src/constants/enums')['ContentTypeEnum']>
     readonly EffectScope: UnwrapRef<typeof import('vue')['EffectScope']>
     readonly acceptHMRUpdate: UnwrapRef<typeof import('pinia')['acceptHMRUpdate']>
     readonly asyncComputed: UnwrapRef<typeof import('@vueuse/core')['asyncComputed']>
@@ -647,7 +647,7 @@ declare module '@vue/runtime-core' {
     readonly APP_KEY: UnwrapRef<typeof import('../src/constants/constants')['APP_KEY']>
     readonly APP_STORAGE_KEY: UnwrapRef<typeof import('../src/constants/constants')['APP_STORAGE_KEY']>
     readonly APP_VERSION: UnwrapRef<typeof import('../src/constants/constants')['APP_VERSION']>
-    readonly ContentTypeEnum: UnwrapRef<typeof import('../src/constants/enum')['ContentTypeEnum']>
+    readonly ContentTypeEnum: UnwrapRef<typeof import('../src/constants/enums')['ContentTypeEnum']>
     readonly EffectScope: UnwrapRef<typeof import('vue')['EffectScope']>
     readonly acceptHMRUpdate: UnwrapRef<typeof import('pinia')['acceptHMRUpdate']>
     readonly asyncComputed: UnwrapRef<typeof import('@vueuse/core')['asyncComputed']>
