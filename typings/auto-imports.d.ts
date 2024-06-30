@@ -6,7 +6,6 @@
 export {}
 declare global {
   const APP_KEY: typeof import('../src/constants/constants')['APP_KEY']
-  const APP_NAME: typeof import('../src/constants/constants')['APP_NAME']
   const APP_STORAGE_KEY: typeof import('../src/constants/constants')['APP_STORAGE_KEY']
   const APP_VERSION: typeof import('../src/constants/constants')['APP_VERSION']
   const ContentTypeEnum: typeof import('../src/constants/enums')['ContentTypeEnum']

@@ -11,6 +11,7 @@ import VueRouter from 'unplugin-vue-router/vite'
 import VueI18n from '@intlify/unplugin-vue-i18n/vite'
 import Layouts from 'vite-plugin-vue-layouts'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
+import viteCompression from 'vite-plugin-compression'
 
 export default defineConfig(({ mode, command }) => {
   const env = loadEnv(mode, cwd(), '')
@@ -111,6 +112,10 @@ export default defineConfig(({ mode, command }) => {
         fullInstall: true,
         include: [resolve(__dirname, 'locales/**')],
       }),
+
+      // Vite compression plugin.
+      // https://github.com/vbenjs/vite-plugin-compression
+      viteCompression(),
     ],
 
     // Vitest config.
@@ -118,6 +123,24 @@ export default defineConfig(({ mode, command }) => {
     test: {
       include: ['tests/**/*'],
       environment: 'jsdom',
+    },
+
+    // Vite build config.
+    // https://rollupjs.org/
+    build: {
+      outDir: 'dist',
+      assetsDir: 'assets',
+      rollupOptions: {
+        output: {
+          manualChunks: (id: string) => {
+            if (id.includes('node_modules')) {
+              return 'vendor'
+            }
+          },
+          entryFileNames: 'assets/[name].[hash].js',
+          chunkFileNames: 'assets/[name].[hash].js',
+        },
+      },
     },
   }
 })
