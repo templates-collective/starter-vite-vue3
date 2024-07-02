@@ -16,6 +16,9 @@ import viteCompression from 'vite-plugin-compression'
 export default defineConfig(({ mode, command }) => {
   const env = loadEnv(mode, cwd(), '')
 
+  // Manual chunks.
+  const chunks: string[] = ['vue']
+
   return {
     base: env.VITE_BASE_URL,
     server: {
@@ -132,13 +135,18 @@ export default defineConfig(({ mode, command }) => {
       assetsDir: 'assets',
       rollupOptions: {
         output: {
+          // https://rollupjs.org/configuration-options/#output-manualchunks
           manualChunks: (id: string) => {
+            const _name = chunks.find(t => id.includes(t))
+            if (chunks.length > 0 && _name) {
+              return _name
+            }
             if (id.includes('node_modules')) {
               return 'vendor'
             }
           },
-          entryFileNames: 'assets/[name].[hash].js',
-          chunkFileNames: 'assets/[name].[hash].js',
+          entryFileNames: '[name]-[hash].js',
+          chunkFileNames: '[name]-[hash].js',
         },
       },
     },
