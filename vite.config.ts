@@ -13,33 +13,32 @@ import Layouts from 'vite-plugin-vue-layouts'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
 import viteCompression from 'vite-plugin-compression'
 
-export default defineConfig(({ mode, command }) => {
+export default defineConfig(({ mode }) => {
+  // Load env variables.
   const env = loadEnv(mode, cwd(), '')
 
   // Manual chunks.
   const chunks: string[] = ['vue']
 
   return {
-    base: env.VITE_BASE_URL,
+    base: env.VITE_BASE,
     server: {
       host: true,
       port: 1977,
       // Proxy request and socket.
       // https://vitejs.dev/config/server-options.html#server-proxy
-      proxy: command === 'serve' && (env.VITE_APP_REQUEST_PROXY_URL || env.VITE_APP_SOCKET_PROXY_URL)
-        ? {
-            [env.VITE_APP_REQUEST_URL]: {
-              target: env.VITE_APP_REQUEST_PROXY_URL,
-              changeOrigin: true,
-              rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
-            },
-            [env.VITE_APP_SOCKET_URL]: {
-              target: env.VITE_APP_SOCKET_PROXY_URL,
-              ws: true,
-              rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
-            },
-          }
-        : {},
+      proxy: {
+        [env.VITE_APP_REQUEST_URL]: {
+          target: env.VITE_APP_REQUEST_PROXY_URL,
+          changeOrigin: true,
+          rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
+        },
+        [env.VITE_APP_SOCKET_URL]: {
+          target: env.VITE_APP_SOCKET_PROXY_URL,
+          ws: true,
+          rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
+        },
+      },
     },
     preview: {
       host: true,
