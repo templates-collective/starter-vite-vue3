@@ -17,7 +17,7 @@
 
 ## Preview
 
-![Preview Image](./public/preview.png)
+[Live Demo](https://opuntia.netlify.app/)
 
 ## Quick Start
 

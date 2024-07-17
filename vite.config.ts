@@ -29,12 +29,12 @@ export default defineConfig(({ mode }) => {
       // https://vitejs.dev/config/server-options.html#server-proxy
       proxy: {
         [env.VITE_APP_REQUEST_URL]: {
-          target: env.VITE_APP_REQUEST_PROXY_URL,
+          target: env.VITE_APP_REQUEST_URL_PROXY,
           changeOrigin: true,
           rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
         },
         [env.VITE_APP_SOCKET_URL]: {
-          target: env.VITE_APP_SOCKET_PROXY_URL,
+          target: env.VITE_APP_SOCKET_URL_PROXY,
           ws: true,
           rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
         },
