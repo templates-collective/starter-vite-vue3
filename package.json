@@ -11,7 +11,7 @@
     "opuntia"
   ],
   "engines": {
-    "node": ">=18.3"
+    "node": ">=18 || >=20"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
