@@ -1,6 +1,6 @@
 # Opuntia
 
-🌵 Vite + Vue 3 SPA starter template, it's fast.
+Vite + Vue 3 SPA starter template, it's fast.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6b182d34-7d30-4206-aad9-9789d1c8ed11/deploy-status)](https://app.netlify.com/sites/opuntia/deploys)
 
@@ -68,4 +68,4 @@ When you use this template, try follow the checklist to update your info properl
 
 ## License
 
-[MIT License](./LICENSE) © 2024 [Kevin Wong](https://github.com/kevinwong865)
+[MIT License](./LICENSE) © 2024 [Kieran Wong](https://github.com/kieranwong9865/)
