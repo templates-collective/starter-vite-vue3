@@ -68,4 +68,4 @@ When you use this template, try follow the checklist to update your info properl
 
 ## License
 
-[MIT License](./LICENSE) © 2024 [Kieran Wong](https://github.com/kieranwong9865/)
+[MIT License](./LICENSE) © 2024 [Opuntia Dev](https://github.com/opuntia-dev/)
