@@ -2540,13 +2540,13 @@ packages:
       run-applescript: 7.0.0
     dev: true
 
-  /bundle-require@5.0.0(esbuild@0.21.5):
+  /bundle-require@5.0.0(esbuild@0.23.0):
     resolution: {integrity: sha512-GuziW3fSSmopcx4KRymQEJVbZUfqlCqcq7dvs6TYwKRZiegK/2buMxQTPs6MGlNv50wms1699qYO54R8XfRX4w==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       esbuild: '>=0.18'
     dependencies:
-      esbuild: 0.21.5
+      esbuild: 0.23.0
       load-tsconfig: 0.2.5
     dev: true
 
@@ -3982,9 +3982,9 @@ packages:
   /importx@0.4.3:
     resolution: {integrity: sha512-x6E6OxmWq/SUaj7wDeDeSjyHP+rMUbEaqJ5fw0uEtC/FTX9ocxNMFJ+ONnpJIsRpFz3ya6qJAK4orwSKqw0BSQ==}
     dependencies:
-      bundle-require: 5.0.0(esbuild@0.21.5)
+      bundle-require: 5.0.0(esbuild@0.23.0)
       debug: 4.3.6
-      esbuild: 0.21.5
+      esbuild: 0.23.0
       jiti: 2.0.0-beta.2
       jiti-v1: /jiti@1.21.6
       pathe: 1.1.2
