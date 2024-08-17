@@ -1,9 +1,10 @@
 <route lang="json">
 {
-  "name": "Home",
+  "name": "Index",
   "meta": {
-    "title": "Home Page",
-    "locale": "page.home.title"
+    "title": "Index Page",
+    "locale": "page.index.title",
+    "layout": "page"
   }
 }
 </route>
@@ -42,7 +43,7 @@ function fetchData() {
   <div flex justify-center items-center my-5>
     <TheButton lh-4 @click="fetchData">
       <img v-show="loading" mr-2 src="@/assets/loading.svg">
-      {{ t('page.home.get-todo-list') }}
+      {{ t('page.index.get-todo-list') }}
     </TheButton>
   </div>
   <ul v-if="todoList.length > 0" my-5 h-50 overflow-y-auto>

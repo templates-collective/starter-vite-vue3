@@ -3,7 +3,8 @@
   "name": "About",
   "meta": {
     "title": "About Page",
-    "locale": "page.about.title"
+    "locale": "page.about.title",
+    "layout": "page"
   }
 }
 </route>
@@ -13,15 +14,9 @@ const route = useRoute()
 
 const { t } = useI18n()
 
-const { showLogo } = storeToRefs(useSettingStore())
+const { headerLogo } = storeToRefs(useLayoutStore())
 
-const { updateSetting } = useSettingStore()
-
-function toggleLogo() {
-  updateSetting({
-    logo: !showLogo.value,
-  })
-}
+const { toggleLogo } = useLayoutStore()
 </script>
 
 <template>
@@ -30,7 +25,7 @@ function toggleLogo() {
   </h1>
   <div flex justify-center items-center my-5>
     <TheButton lh-4 @click="toggleLogo">
-      {{ showLogo ? t('page.about.hide-logo') : t('page.about.show-logo') }}
+      {{ headerLogo ? t('page.about.hide-logo') : t('page.about.show-logo') }}
     </TheButton>
   </div>
 </template>

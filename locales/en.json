@@ -1,26 +1,29 @@
 {
   "app": {
-    "title": "Opuntia",
-    "description": "Vite + Vue 3 SPA starter template, it's fast."
+    "title": "Vite + Vue 3 SPA starter template",
+    "description": "Vite + Vue 3 SPA starter template, supports I18n, UnoCSS, Axios and API auto-import."
   },
   "page": {
-    "home": {
-      "title": "Opuntia",
+    "index": {
+      "title": "Vite + Vue 3 SPA starter template",
       "get-todo-list": "Get Todo List"
     },
     "about": {
-      "title": "About",
+      "title": "About Page",
       "show-logo": "Show Logo",
       "hide-logo": "Hide Logo"
+    },
+    "not-found": {
+      "title": "Page Not Found",
+      "content": "Sorry, the page you visited does not exist."
     }
   },
   "button": {
-    "about": "About",
     "back": "Back",
-    "home": "Home",
+    "index-page": "Index Page",
+    "about-page": "About Page",
     "toggle-dark": "Toggle dark mode",
     "toggle-locale": "Change languages"
   },
-  "empty": "No content",
-  "not-found": "Page Not found"
+  "empty": "No content"
 }

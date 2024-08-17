@@ -19,6 +19,10 @@ a {
   --at-apply: color-primary;
 }
 
+a:hover {
+  --at-apply: color-op-75;
+}
+
 #nprogress {
   pointer-events: none;
 }

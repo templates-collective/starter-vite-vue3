@@ -69,5 +69,6 @@
   // Enable the i18n-ally extension
   "i18n-ally.localesPaths": [
     "locales"
-  ]
+  ],
+  "i18n-ally.keystyle": "nested"
 }

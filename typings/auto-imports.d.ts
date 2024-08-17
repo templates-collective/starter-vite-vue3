@@ -10,6 +10,8 @@ declare global {
   const APP_VERSION: typeof import('../src/constants/constants')['APP_VERSION']
   const ContentTypeEnum: typeof import('../src/constants/enums')['ContentTypeEnum']
   const EffectScope: typeof import('vue')['EffectScope']
+  const GITHUB_URL: typeof import('../src/constants/constants')['GITHUB_URL']
+  const LICENSE_URL: typeof import('../src/constants/constants')['LICENSE_URL']
   const acceptHMRUpdate: typeof import('pinia')['acceptHMRUpdate']
   const asyncComputed: typeof import('@vueuse/core')['asyncComputed']
   const autoResetRef: typeof import('@vueuse/core')['autoResetRef']
@@ -36,8 +38,6 @@ declare global {
   const debouncedWatch: typeof import('@vueuse/core')['debouncedWatch']
   const defineAsyncComponent: typeof import('vue')['defineAsyncComponent']
   const defineComponent: typeof import('vue')['defineComponent']
-  const defineLoader: typeof import('vue-router/auto')['defineLoader']
-  const definePage: typeof import('unplugin-vue-router/runtime')['_definePage']
   const defineStore: typeof import('pinia')['defineStore']
   const deleteTodoItemApi: typeof import('../src/apis/todo')['deleteTodoItemApi']
   const eagerComputed: typeof import('@vueuse/core')['eagerComputed']
@@ -209,6 +209,7 @@ declare global {
   const useIntervalFn: typeof import('@vueuse/core')['useIntervalFn']
   const useKeyModifier: typeof import('@vueuse/core')['useKeyModifier']
   const useLastChanged: typeof import('@vueuse/core')['useLastChanged']
+  const useLayoutStore: typeof import('../src/stores/layout')['useLayoutStore']
   const useLink: typeof import('vue-router/auto')['useLink']
   const useLocalStorage: typeof import('@vueuse/core')['useLocalStorage']
   const useLocale: typeof import('../src/composables/locale')['useLocale']
@@ -255,7 +256,6 @@ declare global {
   const useScroll: typeof import('@vueuse/core')['useScroll']
   const useScrollLock: typeof import('@vueuse/core')['useScrollLock']
   const useSessionStorage: typeof import('@vueuse/core')['useSessionStorage']
-  const useSettingStore: typeof import('../src/stores/setting')['useSettingStore']
   const useShare: typeof import('@vueuse/core')['useShare']
   const useSlots: typeof import('vue')['useSlots']
   const useSorted: typeof import('@vueuse/core')['useSorted']
@@ -334,6 +334,8 @@ declare module 'vue' {
     readonly APP_VERSION: UnwrapRef<typeof import('../src/constants/constants')['APP_VERSION']>
     readonly ContentTypeEnum: UnwrapRef<typeof import('../src/constants/enums')['ContentTypeEnum']>
     readonly EffectScope: UnwrapRef<typeof import('vue')['EffectScope']>
+    readonly GITHUB_URL: UnwrapRef<typeof import('../src/constants/constants')['GITHUB_URL']>
+    readonly LICENSE_URL: UnwrapRef<typeof import('../src/constants/constants')['LICENSE_URL']>
     readonly acceptHMRUpdate: UnwrapRef<typeof import('pinia')['acceptHMRUpdate']>
     readonly asyncComputed: UnwrapRef<typeof import('@vueuse/core')['asyncComputed']>
     readonly autoResetRef: UnwrapRef<typeof import('@vueuse/core')['autoResetRef']>
@@ -531,6 +533,7 @@ declare module 'vue' {
     readonly useIntervalFn: UnwrapRef<typeof import('@vueuse/core')['useIntervalFn']>
     readonly useKeyModifier: UnwrapRef<typeof import('@vueuse/core')['useKeyModifier']>
     readonly useLastChanged: UnwrapRef<typeof import('@vueuse/core')['useLastChanged']>
+    readonly useLayoutStore: UnwrapRef<typeof import('../src/stores/layout')['useLayoutStore']>
     readonly useLink: UnwrapRef<typeof import('vue-router/auto')['useLink']>
     readonly useLocalStorage: UnwrapRef<typeof import('@vueuse/core')['useLocalStorage']>
     readonly useLocale: UnwrapRef<typeof import('../src/composables/locale')['useLocale']>
@@ -577,7 +580,6 @@ declare module 'vue' {
     readonly useScroll: UnwrapRef<typeof import('@vueuse/core')['useScroll']>
     readonly useScrollLock: UnwrapRef<typeof import('@vueuse/core')['useScrollLock']>
     readonly useSessionStorage: UnwrapRef<typeof import('@vueuse/core')['useSessionStorage']>
-    readonly useSettingStore: UnwrapRef<typeof import('../src/stores/setting')['useSettingStore']>
     readonly useShare: UnwrapRef<typeof import('@vueuse/core')['useShare']>
     readonly useSlots: UnwrapRef<typeof import('vue')['useSlots']>
     readonly useSorted: UnwrapRef<typeof import('@vueuse/core')['useSorted']>

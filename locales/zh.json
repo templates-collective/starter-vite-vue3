@@ -1,26 +1,29 @@
 {
   "app": {
-    "title": "Opuntia",
-    "description": "Vite + Vue 3 单页面应用启动模板，它很快。"
+    "title": "Vite + Vue 3 单页面应用初始化模板",
+    "description": "Vite + Vue 3 单页面应用初始化模板, 支持 I18n、Axios、UnoCSS 和自动化的 API 导入。"
   },
   "page": {
-    "home": {
-      "title": "Opuntia",
+    "index": {
+      "title": "Vite + Vue 3 单页面应用初始化模板",
       "get-todo-list": "获取待办事项列表"
     },
     "about": {
       "title": "关于",
       "show-logo": "显示 Logo",
       "hide-logo": "隐藏 Logo"
+    },
+    "not-found": {
+      "title": "页面未找到",
+      "content": "抱歉，您访问的页面不存在。"
     }
   },
   "button": {
-    "about": "关于",
     "back": "返回",
-    "home": "首页",
+    "index-page": "首页",
+    "about-page": "关于页面",
     "toggle-dark": "切换深色模式",
     "toggle-locale": "切换语言"
   },
-  "empty": "暂无内容",
-  "not-found": "未找到页面"
+  "empty": "暂无内容"
 }
