@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, cwd(), '')
 
   // Manual chunks.
-  const chunks: string[] = ['vue']
+  const chunks: string[] = ['axios', 'nprogress']
 
   return {
     base: env.VITE_BASE,
@@ -136,16 +136,8 @@ export default defineConfig(({ mode }) => {
         output: {
           // https://rollupjs.org/configuration-options/#output-manualchunks
           manualChunks: (id: string) => {
-            const _name = chunks.find(t => id.includes(t))
-            if (chunks.length > 0 && _name) {
-              return _name
-            }
-            if (id.includes('node_modules')) {
-              return 'vendor'
-            }
+            return chunks.find(chunk => id.includes(chunk))
           },
-          entryFileNames: '[name]-[hash].js',
-          chunkFileNames: '[name]-[hash].js',
         },
       },
     },
