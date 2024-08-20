@@ -12,10 +12,15 @@ import {
 export default defineConfig({
   theme: {
     colors: {
-      primary: '#0d0d0d',
+      primary: 'var(--primary-color)',
     },
   },
-  shortcuts: [],
+  shortcuts: [
+    {
+      'bg-main': 'bg-neutral-100  dark:bg-neutral-900 ',
+      'text-main': 'text-neutral-900 dark:text-neutral-200',
+    },
+  ],
   presets: [
     presetUno(),
     presetAttributify(),

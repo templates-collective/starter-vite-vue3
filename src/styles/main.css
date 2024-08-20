@@ -6,21 +6,28 @@ body,
   padding: 0;
 }
 
-html {
-  --at-apply: bg-neutral-100 text-neutral-900;
+:root {
+  --primary-color: #020617;
+}
+
+:root.dark {
+  --primary-color: #f0f0f0;
 }
 
 html.dark {
   color-scheme: dark;
-  --at-apply: bg-neutral-900 text-neutral-200;
 }
 
-a {
-  --at-apply: color-primary;
+html:not(.dark) {
+  color-scheme: light;
+}
+
+body {
+  --at-apply: bg-main text-main;
 }
 
 a:hover {
-  --at-apply: color-op-75;
+  --at-apply: op-75;
 }
 
 #nprogress {
