@@ -47,7 +47,7 @@ function openGithub() {
         </TheButton>
       </p>
     </header>
-    <main m-auto border-2 border-dashed border-color-stone-500 rd-2 p-5 min-h-32 max-w-xs sm:max-w-2xl>
+    <main m-auto border-2 border-dashed border-color-stone-500 rd-1.5 p-5 min-h-32 max-w-xs sm:max-w-2xl>
       <RouterView />
     </main>
     <footer mt-10 py-10 text-center>
