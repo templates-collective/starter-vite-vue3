@@ -17,11 +17,7 @@ Vite + Vue 3 SPA starter template, supports I18n, UnoCSS, Axios and API auto-imp
 
 ## Preview
 
-[Live Demo](https://starter-vite-vue3.netlify.app/)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b182d34-7d30-4206-aad9-9789d1c8ed11/deploy-status)](https://app.netlify.com/sites/starter-vite-vue3/deploys)
-
-![Preview Image](https://github.com/templates-collective/.github/blob/main/preview/starter-vite-vue3.png)
+[![Preview Image](https://github.com/templates-collective/.github/blob/main/preview/starter-vite-vue3.png)](https://starter-vite-vue3.netlify.app/)
 
 ## Quick Start
 
