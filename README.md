@@ -33,7 +33,7 @@ If you just want to develop locally, you can [create a repo](https://github.com/
 
 ## Usage
 
-Just run and visit http://localhost:1977.
+Just run and visit http://localhost:9865.
 
 ```bash
 pnpm dev

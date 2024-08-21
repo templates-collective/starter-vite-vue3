@@ -24,7 +24,7 @@ export default defineConfig(({ mode }) => {
     base: env.VITE_BASE,
     server: {
       host: true,
-      port: 1977,
+      port: 9865,
       // Proxy request and socket.
       // https://vitejs.dev/config/server-options.html#server-proxy
       proxy: {
@@ -42,7 +42,7 @@ export default defineConfig(({ mode }) => {
     },
     preview: {
       host: true,
-      port: 1977,
+      port: 9865,
     },
     resolve: {
       alias: {
