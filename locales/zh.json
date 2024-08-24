@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "Vite + Vue 3 单页面应用初始化模板",
-    "description": "Vite + Vue 3 单页面应用初始化模板, 支持 I18n、Axios、UnoCSS 和自动化的 API 导入。"
+    "description": "Vite + Vue 3 单页面应用初始化模板, 支持 I18n、Axios、UnoCSS、文件路由和自动化的 API 导入。"
   },
   "page": {
     "index": {

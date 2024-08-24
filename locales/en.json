@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "Vite + Vue 3 SPA starter template",
-    "description": "Vite + Vue 3 SPA starter template, supports I18n, UnoCSS, Axios and API auto-import."
+    "description": "Vite + Vue 3 SPA starter template, supports I18n, UnoCSS, Axios, File Routing and API auto-import."
   },
   "page": {
     "index": {
