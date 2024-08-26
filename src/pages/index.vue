@@ -46,7 +46,7 @@ function fetchData() {
       {{ t('page.index.get-todo-list') }}
     </TheButton>
   </div>
-  <ul v-if="todoList.length > 0" my-5 h-50 overflow-y-auto>
+  <ul v-if="todoList && todoList.length > 0" my-5 h-50 overflow-y-auto>
     <li v-for="item in todoList" :key="item.id" text-base lh-normal>
       <input type="checkbox" accent-primary>
       {{ item.title }}

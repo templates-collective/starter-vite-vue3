@@ -39,7 +39,7 @@ export function getTodoListApi() {
 /**
  * Get todo item.
  *
- * @param id
+ * @param id number
  */
 export function getTodoItemApi(id: number) {
   return request.get<TodoItem>(`/todos`, {
@@ -52,29 +52,25 @@ export function getTodoItemApi(id: number) {
 /**
  * Create todo item.
  *
- * @param todo
+ * @param data TodoItem
  */
-export function createTodoItemApi(todo: TodoItem) {
-  return request.post<TodoItem>('/todos', {
-    data: todo,
-  })
+export function createTodoItemApi(data: TodoItem) {
+  return request.post<TodoItem>('/todos', data)
 }
 
 /**
  * Update todo item.
  *
- * @param todo
+ * @param data TodoItem
  */
-export function updateTodoItemApi(todo: TodoItem) {
-  return request.put<TodoItem>('/todos', {
-    data: todo,
-  })
+export function updateTodoItemApi(data: TodoItem) {
+  return request.put<TodoItem>('/todos', data)
 }
 
 /**
  * Delete todo item.
  *
- * @param id
+ * @param id number
  */
 export function deleteTodoItemApi(id: number) {
   return request.delete(`/todos/${id}`)

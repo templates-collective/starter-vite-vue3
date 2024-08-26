@@ -31,9 +31,9 @@ export function useRequest(config?: AxiosRequestConfig, interceptors?: {
 
   const interceptorsResponse = (response: AxiosResponse) => {
     if (response.status === 200) {
-      return response.data
+      return response
     }
-    return Promise.reject(response.data)
+    return Promise.reject(response)
   }
 
   request.interceptors.request.use(interceptors?.request || interceptorsRequest)
