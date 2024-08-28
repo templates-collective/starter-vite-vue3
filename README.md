@@ -24,7 +24,9 @@ Vite + Vue 3 SPA starter template, supports I18n, UnoCSS, Axios, File Routing an
 [Create a repo](https://github.com/templates-collective/starter-vite-vue3/generate) from this template on GitHub.
 
 ```bash
-git clone https://github.com/templates-collective/starter-ui-vue3.git # Replace with your git repository address.
+# Replace with your git repository address.
+
+git clone https://github.com/templates-collective/starter-ui-vue3.git
 ```
 
 Just run and visit http://localhost:9865.
