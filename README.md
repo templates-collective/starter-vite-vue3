@@ -19,15 +19,13 @@ Vite + Vue 3 SPA starter template, supports I18n, UnoCSS, Axios, File Routing an
 
 [![Preview Image](https://github.com/templates-collective/.github/blob/main/preview/starter-vite-vue3.png)](https://starter-vite-vue3.netlify.app/)
 
-## Quick Start
-
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/templates-collective/starter-vite-vue3)
-
-Click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
-
-If you just want to develop locally, you can [create a repo](https://github.com/templates-collective/starter-vite-vue3/generate) from this template on GitHub.
-
 ## Usage
+
+[Create a repo](https://github.com/templates-collective/starter-vite-vue3/generate) from this template on GitHub.
+
+```bash
+git clone https://github.com/templates-collective/starter-ui-vue3.git # Replace with your git repository address.
+```
 
 Just run and visit http://localhost:9865.
 
@@ -52,9 +50,9 @@ pnpm preview
 If you prefer to do it manually with the cleaner git history:
 
 ```bash
-npx degit templates-collective/starter-vite-vue3 app
+npx degit templates-collective/starter-vite-vue3 starter-vite-vue3
 
-cd app
+cd starter-vite-vue3
 
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
