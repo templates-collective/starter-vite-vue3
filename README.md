@@ -6,6 +6,7 @@ Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing an
 
 - [Live Demo](https://starter-vite-vue3.netlify.app/)
 - [Play on Stackblitz](https://stackblitz.com/github/templates-collective/starter-vite-vue3)
+- [README for 简体中文](./README.zh-CN.md)
 
 ## Features
 
@@ -16,7 +17,7 @@ Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing an
 - Use [SVG icons](https://github.com/antfu/unocss/tree/main/packages/preset-icons) from any icon sets with classes.
 - [I18n](./locales) ready, and supports automatic import of translated files.
 - Unit Testing with [Vitest](https://github.com/vitest-dev/vitest).
-- Deploy on Netlify with zero-config, supports other deployment methods as well.
+- Deploy on [Netlify](https://app.netlify.com/) with zero-config, supports other deployment methods as well.
 
 ## Preview
 
