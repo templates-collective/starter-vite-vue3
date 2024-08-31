@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.3.0",
   "packageManager": "pnpm@8.15.8",
-  "description": "Vite + Vue 3 SPA starter template, supports I18n, UnoCSS, Axios, File Routing and API auto-import.",
+  "description": "Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing and API auto-import.",
   "author": "Kieran Wong <kieranwong9865@gmail.com> (https://github.com/kieranwong9865/)",
   "license": "MIT",
   "engines": {

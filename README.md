@@ -1,8 +1,8 @@
-# Vite + Vue 3 SPA starter template
+# Vite + Vue 3 SPA Starter Template
 
 [![Version](https://img.shields.io/github/v/release/templates-collective/starter-vite-vue3?style=flat&label=%20&color=%230d0d0d)](https://github.com/templates-collective/starter-vite-vue3/releases)
 
-Vite + Vue 3 SPA starter template, supports I18n, UnoCSS, Axios, File Routing and API auto-import.
+Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing and API auto-import.
 
 ## Features
 
