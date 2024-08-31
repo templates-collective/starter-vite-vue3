@@ -1,4 +1,4 @@
-# Vite + Vue 3 SPA Starter Template
+# Vite + Vue 3 Starter Template
 
 [![Version](https://img.shields.io/github/v/release/templates-collective/starter-vite-vue3?style=flat&label=%20&color=%230d0d0d)](https://github.com/templates-collective/starter-vite-vue3/releases)
 

@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "Vite + Vue 3 SPA Starter Template",
+    "title": "Vite + Vue 3 Starter Template",
     "description": "Vite + Vue 3 单页面应用初始化模板, 支持国际化、Axios、UnoCSS、文件路由和自动化的 API 导入。"
   },
   "page": {
     "home": {
-      "title": "Vite + Vue 3 SPA Starter Template",
+      "title": "Vite + Vue 3 Starter Template",
       "get-todo-list": "获取待办事项列表"
     },
     "about": {
