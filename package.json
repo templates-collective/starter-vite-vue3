@@ -1,7 +1,7 @@
 {
   "name": "starter-vite-vue3",
   "type": "module",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "packageManager": "pnpm@8.15.8",
   "description": "Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing and API auto-import.",
   "author": "Kieran Wong <kieranwong9865@gmail.com> (https://github.com/kieranwong9865/)",
