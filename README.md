@@ -31,7 +31,7 @@ Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing an
 git clone <git remote url>
 ```
 
-Install npm dependencies.
+Install dependencies.
 
 ```bash
 cd starter-vite-vue3 # Or your project directory
