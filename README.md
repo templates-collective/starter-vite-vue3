@@ -12,7 +12,7 @@ Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing an
 
 - [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [UnoCSS](https://github.com/antfu/unocss), [Pinia](https://pinia.vuejs.org/), [TypeScript](https://www.typescriptlang.org/) - the latest web develop stack.
 - File-based [routing](./src/pages) and [layout](./src/layouts) system, it's automatic.
-- [Components](https://github.com/antfu/unplugin-vue-components), [API](https://github.com/antfu/unplugin-auto-import) and src directories are auto importing.
+- [Components](https://github.com/antfu/unplugin-vue-components), [API](https://github.com/antfu/unplugin-auto-import) and `src` directories are auto importing.
 - Out-of-the-box network requests, based on [Axios](https://axios-http.com/).
 - Use [SVG icons](https://github.com/antfu/unocss/tree/main/packages/preset-icons) from any icon sets with classes.
 - [I18n](./locales) ready, and supports automatic import of translated files.
