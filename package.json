@@ -5,10 +5,6 @@
   "description": "Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing and API auto-import.",
   "author": "Kieran Wong <kieranwong9865@gmail.com> (https://github.com/kieranwong9865/)",
   "license": "MIT",
-  "engines": {
-    "node": ">=18 || >=20",
-    "pnpm": ">=8"
-  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "simple-git-hooks",
