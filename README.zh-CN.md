@@ -44,13 +44,13 @@ pnpm i # 如果你没有安装 pnpm，运行：npm install -g pnpm
 pnpm dev
 ```
 
-要构建应用程序，你可以运行：
+要构建应用程序，可以运行：
 
 ```bash
 pnpm build
 ```
 
-你将会看到生成的 `dist` 文件夹用于发布，你可以使用以下命令在本地预览。
+然后你会看到生成的 `dist` 文件夹用于发布，你可以使用以下命令在本地预览。
 
 ```bash
 pnpm preview
@@ -58,7 +58,7 @@ pnpm preview
 
 ## 清理模板
 
-如果你更喜欢手动清理 Git 历史记录：
+如果你更喜欢保持更清晰的 git 历史记录：
 
 ```bash
 npx degit templates-collective/starter-vite-vue3 starter-vite-vue3
@@ -68,12 +68,11 @@ cd starter-vite-vue3
 pnpm i # 如果你没有安装 pnpm，运行：npm install -g pnpm
 ```
 
-在使用此模板时，建议按照以下清单正确更新信息：
+使用此模板时，请按照以下检查列表正确更新信息：
 
-- [ ] 修改 `LICENSE` 中的作者名称。
-- [ ] 修改 `locales/*.json` 中的标题和 `VITE_APP_NAME` 环境变量。
-- [ ] 修改 `public` 中的 favicon 并移除预览图像。
-- [ ] 删除包含资助信息的 `.github` 文件夹。
+- [ ] 更改 `LICENSE` 中的作者姓名。
+- [ ] 更改 `locales/*.json` 和 `VITE_APP_NAME` 环境变量中的标题。
+- [ ] 更改 `public` 中的 favicon。
 
 ## 许可
 
