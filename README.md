@@ -74,7 +74,6 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Change the author name in `LICENSE`.
 - [ ] Change the title in `locales/*.json` and `VITE_APP_NAME` env.
 - [ ] Change the favicon in `public` and remove preview image.
-- [ ] Remove the `.github` folder which contains the funding info.
 
 ## License
 
