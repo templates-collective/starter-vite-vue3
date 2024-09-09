@@ -1,17 +1,17 @@
 import { resolve } from 'node:path'
 import { cwd } from 'node:process'
-import { defineConfig, loadEnv } from 'vite'
+import VueI18n from '@intlify/unplugin-vue-i18n/vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import UnoCSS from 'unocss/vite'
-import VueDevTools from 'vite-plugin-vue-devtools'
-import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
-import VueRouter from 'unplugin-vue-router/vite'
-import VueI18n from '@intlify/unplugin-vue-i18n/vite'
-import Layouts from 'vite-plugin-vue-layouts'
+import Components from 'unplugin-vue-components/vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
+import VueRouter from 'unplugin-vue-router/vite'
+import { defineConfig, loadEnv } from 'vite'
 import viteCompression from 'vite-plugin-compression'
+import VueDevTools from 'vite-plugin-vue-devtools'
+import Layouts from 'vite-plugin-vue-layouts'
 
 export default defineConfig(({ mode }) => {
   // Load env variables.

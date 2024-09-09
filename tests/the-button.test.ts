@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest'
-import { mount } from '@vue/test-utils'
 import TheButton from '@/components/TheButton.vue'
+import { mount } from '@vue/test-utils'
+import { describe, expect, it } from 'vitest'
 
 const text = 'Button'
 
