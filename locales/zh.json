@@ -4,7 +4,7 @@
     "description": "Vite + Vue 3 单页面应用初始化模板, 支持国际化、Axios、UnoCSS、文件路由和自动化的 API 导入。"
   },
   "page": {
-    "home": {
+    "index": {
       "title": "Vite + Vue 3 Starter Template",
       "get-todo-list": "获取待办事项列表"
     },
@@ -12,6 +12,10 @@
       "title": "关于",
       "show-logo": "显示 Logo",
       "hide-logo": "隐藏 Logo"
+    },
+    "not-found": {
+      "title": "未找到页面",
+      "content": "抱歉，您访问的页面不存在。"
     }
   },
   "button": {
@@ -21,6 +25,5 @@
     "toggle-dark": "切换深色模式",
     "toggle-locale": "切换语言"
   },
-  "empty": "暂无内容",
-  "not-found": "未找到页面"
+  "empty": "暂无内容"
 }
