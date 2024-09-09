@@ -19,10 +19,10 @@
     }
   },
   "button": {
-    "about": "关于",
     "back": "返回",
-    "home": "首页",
-    "toggle-dark": "切换深色模式",
+    "index-page": "首页",
+    "about-page": "关于页面",
+    "toggle-dark": "切换暗色模式",
     "toggle-locale": "切换语言"
   },
   "empty": "暂无内容"
