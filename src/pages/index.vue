@@ -18,7 +18,7 @@ const { t } = useI18n()
 
 const todoList = ref<TodoList>([])
 
-const emptyText = ref(t('empty'))
+const emptyText = ref('')
 
 const loading = ref(false)
 
@@ -53,6 +53,6 @@ function fetchData() {
     </li>
   </ul>
   <p v-if="todoList.length === 0" my-5 text-center op-75>
-    {{ emptyText }}
+    {{ emptyText || t('empty') }}
   </p>
 </template>
