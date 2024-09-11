@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => {
   const chunks: string[] = ['axios', 'nprogress']
 
   return {
-    base: env.VITE_BASE,
+    base: env.VITE_APP_BASE_URL,
     server: {
       host: true,
       port: 9865,
@@ -31,11 +31,6 @@ export default defineConfig(({ mode }) => {
         [env.VITE_APP_REQUEST_URL]: {
           target: env.VITE_APP_REQUEST_URL_PROXY,
           changeOrigin: true,
-          rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
-        },
-        [env.VITE_APP_SOCKET_URL]: {
-          target: env.VITE_APP_SOCKET_URL_PROXY,
-          ws: true,
           rewrite: (path: string) => path.replace(new RegExp(`^${env.VITE_APP_REQUEST_URL}`), ''),
         },
       },
