@@ -112,7 +112,7 @@ export default defineConfig(({ mode }) => {
         runtimeOnly: true,
         compositionOnly: true,
         fullInstall: true,
-        include: [resolve(__dirname, 'locales/**')],
+        include: [resolve(__dirname, 'src/locales/**')],
       }),
 
       // Vite compression plugin.
