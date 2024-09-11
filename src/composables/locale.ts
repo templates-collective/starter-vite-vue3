@@ -19,7 +19,7 @@ export function useLocale() {
 
   const setLocaleTitle = (locale?: string, isKey: boolean = false) => {
     const _t = isKey ? t(locale || 'app.title') : locale
-    title.value = _t === t('app.title') ? _t : `${_t} | ${t('app.title')}`
+    title.value = _t === t('app.title') ? _t : `${_t} - ${t('app.title')}`
   }
 
   return {
