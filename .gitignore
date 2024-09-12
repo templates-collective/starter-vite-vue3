@@ -1,6 +1,7 @@
 dist
 node_modules
 *.log
+*.timestamp
 .DS_Store
 .output
 .eslintcache

@@ -9,7 +9,7 @@ import Components from 'unplugin-vue-components/vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
 import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig, loadEnv } from 'vite'
-import viteCompression from 'vite-plugin-compression'
+import viteCompression from 'vite-plugin-compression2'
 import VueDevTools from 'vite-plugin-vue-devtools'
 import Layouts from 'vite-plugin-vue-layouts'
 
@@ -112,7 +112,7 @@ export default defineConfig(({ mode }) => {
 
       // Vite compression plugin.
       // https://github.com/vbenjs/vite-plugin-compression
-      viteCompression(),
+      env.VITE_APP_GZIP === 'true' && viteCompression(),
     ],
 
     // Vitest config.
@@ -133,6 +133,9 @@ export default defineConfig(({ mode }) => {
           manualChunks: (id: string) => {
             return chunks.find(chunk => id.includes(chunk))
           },
+          chunkFileNames: 'assets/[name].[hash].js',
+          entryFileNames: 'assets/[name].[hash].js',
+          assetFileNames: 'assets/[name].[hash].[ext]',
         },
       },
     },

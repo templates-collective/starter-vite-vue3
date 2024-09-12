@@ -3,6 +3,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_APP_BASE_URL: string
+  readonly VITE_APP_GZIP: string
   readonly VITE_PUBLIC_REQUEST_URL: string
   readonly VITE_PUBLIC_REQUEST_URL_PROXY: string
 }
