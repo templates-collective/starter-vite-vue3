@@ -13,7 +13,7 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "simple-git-hooks",
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "pnpm run clean && vite build",
     "preview": "vite preview",
     "test": "vitest",
     "lint": "eslint .",
