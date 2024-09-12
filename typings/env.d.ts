@@ -3,8 +3,8 @@
 
 interface ImportMetaEnv {
   readonly VITE_APP_BASE_URL: string
-  readonly VITE_APP_REQUEST_URL: string
-  readonly VITE_APP_REQUEST_URL_PROXY: string
+  readonly VITE_PUBLIC_REQUEST_URL: string
+  readonly VITE_PUBLIC_REQUEST_URL_PROXY: string
 }
 
 interface ImportMeta {
