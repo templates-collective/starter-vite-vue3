@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => {
   const chunks: string[] = ['axios', 'nprogress']
 
   return {
-    base: env.VITE_APP_BASE_URL || '/',
+    base: env.VITE_APP_BASE_URL,
     server: {
       host: true,
       port: 9865,
