@@ -8,6 +8,9 @@ import { assign } from 'lodash-es'
  * @see https://axios-http.com/docs/req_config
  * @param config
  * @param interceptors
+ * @param  interceptors.request
+ * @param  interceptors.response
+ * @param  interceptors.responseError
  */
 export function useRequest(config?: AxiosRequestConfig, interceptors?: {
   request?: (config: InternalAxiosRequestConfig) => InternalAxiosRequestConfig
