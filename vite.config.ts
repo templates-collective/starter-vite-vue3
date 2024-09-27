@@ -111,9 +111,21 @@ export default defineConfig(({ mode }) => {
       }),
 
       // Vite compression plugin.
-      // https://github.com/vbenjs/vite-plugin-compression
+      // https://github.com/nonzzz/vite-plugin-compression
       env.VITE_APP_GZIP === 'true' && viteCompression(),
     ],
+
+    // Optimize dependencies.
+    // https://vitejs.dev/config/#optimizedeps
+    optimizeDeps: {
+      include: [
+        'vue',
+        'vue-router',
+        'pinia',
+        '@vueuse/core',
+        'lodash-es',
+      ],
+    },
 
     // Vitest config.
     // https://github.com/vitest-dev/vitest
