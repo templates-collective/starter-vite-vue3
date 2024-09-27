@@ -2,7 +2,7 @@
 {
   "name": "not-found-page",
   "meta": {
-    "title": "404 Page",
+    "title": "Page Not Found",
     "locale": "page.not-found.title"
   }
 }
