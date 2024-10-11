@@ -1,6 +1,6 @@
 <route lang="json">
 {
-  "name": "not-found-page",
+  "name": "404",
   "meta": {
     "title": "Page Not Found",
     "locale": "page.not-found.title"
