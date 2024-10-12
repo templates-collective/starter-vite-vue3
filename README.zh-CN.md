@@ -77,4 +77,4 @@ pnpm i # 如果你没有安装 pnpm，运行：npm install -g pnpm
 
 ## 许可证
 
-[MIT 许可证](./LICENSE) © 2024 [Kieran Wong](https://github.com/kieranwong9865/)
+[MIT 许可证](./LICENSE) © 2024 [Kieran Wang](https://github.com/kieranwv/)
