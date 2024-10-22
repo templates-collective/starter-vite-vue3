@@ -20,14 +20,14 @@ function openGithub() {
 
 <template>
   <main w-full h-full>
-    <header mb-10 py-10 text-center>
+    <header mb-10 py-10 px-6 text-center>
       <template v-if="headerLogo">
         <img v-if="isDark" alt="Logo Image with Dark mode" src="/logo-dark.svg" w-50 m-auto>
         <img v-else src="/logo.svg" alt="Logo Image" w-50 m-auto>
       </template>
       <p text-6 font-bold my-5>
-        <span>{{ t('app.title') }}</span>
-        <sup><i>{{ APP_VERSION }}</i></sup>
+        <span mr-2>{{ t('app.title') }}</span>
+        <sup><i>v{{ APP_VERSION }}</i></sup>
       </p>
       <p op-75 my-10 text-base>
         {{ t('app.description') }}
@@ -53,7 +53,7 @@ function openGithub() {
     <main m-auto border-2 border-dashed border-color-stone-500 rd-1.5 p-5 min-h-32 max-w-xs sm:max-w-2xl>
       <RouterView />
     </main>
-    <footer mt-10 py-10 text-center op-75>
+    <footer mt-10 py-10 px-6 text-center op-75>
       <a :href="LICENSE_URL" target="_blank">MIT License</a> © {{ new Date().getFullYear() }} <a
         href="https://github.com/kieranwong9865" target="_blank"
       >Kieran Wong</a>
