@@ -1,11 +1,11 @@
 # Vite + Vue 3 启动模板
 
-[![Version](https://img.shields.io/github/v/release/templates-collective/starter-vite-vue3?style=flat&label=%20&color=%230d0d0d)](https://github.com/templates-collective/starter-vite-vue3/releases)
+[![Version](https://img.shields.io/github/v/release/starter-collective/starter-vite-vue3?style=flat&label=%20&color=%230d0d0d)](https://github.com/starter-collective/starter-vite-vue3/releases)
 
 Vite + Vue 3 单页面应用初始化模板, 支持国际化、Axios、UnoCSS、文件路由和自动化的 API 导入。
 
 - [在线演示](https://starter-vite-vue3.netlify.app/)
-- [在 Stackblitz 上试用](https://stackblitz.com/github/templates-collective/starter-vite-vue3)
+- [在 Stackblitz 上试用](https://stackblitz.com/github/starter-collective/starter-vite-vue3)
 - [简体中文的 README](./README.zh-CN.md)
 
 ## 特性
@@ -21,11 +21,11 @@ Vite + Vue 3 单页面应用初始化模板, 支持国际化、Axios、UnoCSS、
 
 ## 预览
 
-[![预览图片](https://github.com/templates-collective/.github/blob/main/preview/starter-vite-vue3.png)](https://starter-vite-vue3.netlify.app/)
+[![预览图片](https://github.com/starter-collective/.github/blob/main/preview/starter-vite-vue3.png)](https://starter-vite-vue3.netlify.app/)
 
 ## 使用方法
 
-从 GitHub 上 [创建一个仓库](https://github.com/templates-collective/starter-vite-vue3/generate) 基于此模板。
+从 GitHub 上 [创建一个仓库](https://github.com/starter-collective/starter-vite-vue3/generate) 基于此模板。
 
 ```bash
 git clone <git 远程地址>
@@ -62,7 +62,7 @@ pnpm preview
 如果你更喜欢手动操作并保持更清晰的 git 历史记录：
 
 ```bash
-npx degit templates-collective/starter-vite-vue3 starter-vite-vue3
+npx degit starter-collective/starter-vite-vue3 starter-vite-vue3
 
 cd starter-vite-vue3
 

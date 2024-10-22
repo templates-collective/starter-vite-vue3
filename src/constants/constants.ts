@@ -18,7 +18,7 @@ export const APP_STORAGE_KEY = `${APP_KEY}-v${APP_VERSION}`
 /**
  * The url of the GitHub repository.
  */
-export const GITHUB_URL = 'https://github.com/templates-collective/starter-vite-vue3'
+export const GITHUB_URL = 'https://github.com/starter-collective/starter-vite-vue3'
 
 /**
  * The license url of the application.

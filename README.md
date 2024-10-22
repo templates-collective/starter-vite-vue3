@@ -1,11 +1,11 @@
 # Vite + Vue 3 Starter Template
 
-[![Version](https://img.shields.io/github/v/release/templates-collective/starter-vite-vue3?style=flat&label=%20&color=%230d0d0d)](https://github.com/templates-collective/starter-vite-vue3/releases)
+[![Version](https://img.shields.io/github/v/release/starter-collective/starter-vite-vue3?style=flat&label=%20&color=%230d0d0d)](https://github.com/starter-collective/starter-vite-vue3/releases)
 
 Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing and API auto-import.
 
 - [Live Demo](https://starter-vite-vue3.netlify.app/)
-- [Play on Stackblitz](https://stackblitz.com/github/templates-collective/starter-vite-vue3)
+- [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-vite-vue3)
 - [README for 简体中文](./README.zh-CN.md)
 
 ## Features
@@ -21,11 +21,11 @@ Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing an
 
 ## Preview
 
-[![Preview Image](https://github.com/templates-collective/.github/blob/main/preview/starter-vite-vue3.png)](https://starter-vite-vue3.netlify.app/)
+[![Preview Image](https://github.com/starter-collective/.github/blob/main/preview/starter-vite-vue3.png)](https://starter-vite-vue3.netlify.app/)
 
 ## Usage
 
-[Create a repo](https://github.com/templates-collective/starter-vite-vue3/generate) from this template on GitHub.
+[Create a repo](https://github.com/starter-collective/starter-vite-vue3/generate) from this template on GitHub.
 
 ```bash
 git clone <git remote url>
@@ -62,7 +62,7 @@ pnpm preview
 If you prefer to do it manually with the cleaner git history:
 
 ```bash
-npx degit templates-collective/starter-vite-vue3 starter-vite-vue3
+npx degit starter-collective/starter-vite-vue3 starter-vite-vue3
 
 cd starter-vite-vue3
 
